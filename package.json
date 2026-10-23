@@ -1,0 +1,48 @@
+{
+  "name": "quiz-show-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "icons": "node scripts/make-icons.mjs",
+    "desktop": "vite build && electron .",
+    "package:win": "npm run build && node scripts/package-win.mjs",
+    "mobile:sync": "npm run build && npx cap sync && node scripts/mobile-assets.mjs",
+    "android:apk": "npm run mobile:sync && node scripts/build-apk.mjs"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3",
+    "idb-keyval": "^6.2.1",
+    "peerjs": "^1.5.4",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@electron/packager": "^20.3.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "electron": "^45.0.0",
+    "peer": "^1.0.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  },
+  "main": "electron/main.cjs",
+  "productName": "Quiz Show Studio",
+  "description": "Jeopardy-style trivia with phone buzzers",
+  "author": "Quiz Show Studio"
+}

@@ -1,0 +1,17 @@
+node_modules
+dist
+release
+build/*.tmp
+android/local.properties
+android/.gradle
+android/build
+android/app/build
+android/capacitor-cordova-android-plugins
+ios/App/Pods
+ios/App/build
+ios/DerivedData
+
+.idea
+*.log
+android/app/src/main/assets/public
+android/app/src/main/assets/capacitor.*.json

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Quiz Show Studio</string>
+    <string name="title_activity_main">Quiz Show Studio</string>
+    <string name="package_name">com.quizshowstudio.app</string>
+    <string name="custom_url_scheme">com.quizshowstudio.app</string>
+</resources>

@@ -1,0 +1,2006 @@
+Title: Jeopardy Question Bank — 2,000 Questions
+
+# Imported as Category | Clue | Answer | Other accepted answers | Difficulty
+# Difficulty omitted intentionally; line order determines difficulty within each category.
+# Review clues and answers before competitive use.
+
+Animals & Nature | What is the only mammal capable of sustained powered flight? | A bat | 
+Animals & Nature | What is the tallest living land animal? | The giraffe | 
+Animals & Nature | What is the largest living species of penguin? | The emperor penguin | 
+Animals & Nature | What is a group of lions called? | A pride | 
+Animals & Nature | What is a group of wolves commonly called? | A pack | 
+Animals & Nature | What is the name for a young kangaroo? | A joey | 
+Animals & Nature | What is the name for a young horse? | A foal | 
+Animals & Nature | What is the name for a young swan? | A cygnet | 
+Animals & Nature | What is the name for a young goat? | A kid | 
+Animals & Nature | What is the name for a young deer? | A fawn | 
+Animals & Nature | Which animal is famous for changing color to camouflage and communicate? | A chameleon | 
+Animals & Nature | Which bird is famous for mimicking human speech? | A parrot | 
+Animals & Nature | Which mammal lays eggs and has a duck-like bill? | The platypus | 
+Animals & Nature | Which Australian mammal has a pouch and is known for hopping? | The kangaroo | 
+Animals & Nature | What is the largest living primate? | The eastern gorilla | 
+Animals & Nature | Which animal is known for its black-and-white stripes? | The zebra | 
+Animals & Nature | What is the world's largest rodent? | The capybara | 
+Animals & Nature | What is the name for an animal that eats insects? | An insectivore | 
+Animals & Nature | What is the name for an animal that is active mainly at dawn and dusk? | Crepuscular | 
+Animals & Nature | What do we call the seasonal movement of animals from one region to another? | Migration | 
+Animals & Nature | What is the hard outer covering of a turtle called? | A shell or carapace | 
+Animals & Nature | What type of animal is an axolotl? | A salamander | 
+Animals & Nature | Which marine animal has three hearts? | An octopus | 
+Animals & Nature | How many arms does an octopus have? | Eight | 
+Animals & Nature | What is the largest species of big cat? | The tiger | 
+Animals & Nature | Which bird is commonly associated with delivering babies in folklore? | The stork | 
+Animals & Nature | What is the name for the protective coloration that helps an animal blend in? | Camouflage | 
+Animals & Nature | What do pandas primarily eat in the wild? | Bamboo | 
+Animals & Nature | What is the main food source for adult monarch butterflies? | Nectar | 
+Animals & Nature | What insect produces silk used in traditional silk fabric? | The silkworm, the larva of a silk moth | 
+Art & Architecture | Who painted the Mona Lisa? | Leonardo da Vinci | 
+Art & Architecture | Who painted The Starry Night? | Vincent van Gogh | 
+Art & Architecture | Who painted Guernica? | Pablo Picasso | 
+Art & Architecture | Who sculpted David, the famous Renaissance statue in Florence? | Michelangelo | 
+Art & Architecture | Who painted The Persistence of Memory, featuring melting clocks? | Salvador Dalí | 
+Art & Architecture | What art movement is associated with Claude Monet? | Impressionism | 
+Art & Architecture | What is the Japanese art of paper folding called? | Origami | 
+Art & Architecture | What is the technique of painting on wet plaster called? | Fresco | 
+Art & Architecture | What is a painting of a person's face called? | A portrait | 
+Art & Architecture | What is a picture of inanimate objects arranged by an artist called? | A still life | 
+Art & Architecture | What is the term for the triangular upper part of a classical building's facade? | A pediment | 
+Art & Architecture | Which architectural style is characterized by pointed arches and flying buttresses? | Gothic | 
+Art & Architecture | What is the name of the famous ancient amphitheater in Rome? | The Colosseum | Colosseum
+Art & Architecture | Which architect designed the Guggenheim Museum in New York? | Frank Lloyd Wright | 
+Art & Architecture | What is the Japanese art of arranging flowers called? | Ikebana | 
+Art & Architecture | What is a sculpture made by assembling found objects often called? | An assemblage | 
+Art & Architecture | What is the primary color traditionally used to represent the sun in many paintings? | Yellow | 
+Art & Architecture | What is the process of making prints from a carved or etched surface called? | Printmaking | 
+Art & Architecture | Which artist is famous for the painting American Gothic? | Grant Wood | 
+Art & Architecture | Who painted Girl with a Pearl Earring? | Johannes Vermeer | 
+Biology & Nature | What organ pumps blood through the human body? | The heart | Heart
+Biology & Nature | What is the largest organ of the human body? | The skin | Skin
+Biology & Nature | What organs primarily exchange oxygen and carbon dioxide? | The lungs | Lungs
+Biology & Nature | What pigment gives human skin much of its color? | Melanin | 
+Biology & Nature | What molecule carries genetic instructions in living organisms? | DNA | 
+Biology & Nature | What is the basic unit of life? | The cell | 
+Biology & Nature | What blood cells help carry oxygen? | Red blood cells | 
+Biology & Nature | What protein in red blood cells binds oxygen? | Hemoglobin | 
+Biology & Nature | What organ filters blood and produces urine? | The kidneys | Kidneys
+Biology & Nature | What organ produces insulin? | The pancreas | Pancreas
+Biology & Nature | What is the body's largest internal organ? | The liver | Liver
+Biology & Nature | What is the name of the bone structure that protects the brain? | The skull | 
+Biology & Nature | How many chambers does a human heart have? | Four | 
+Biology & Nature | What is the common name for the femur? | The thigh bone | 
+Biology & Nature | Which vitamin can the skin produce with sunlight exposure? | Vitamin D | 
+Biology & Nature | What is the medical term for the kneecap? | The patella | 
+Biology & Nature | What is the body's main breathing muscle? | The diaphragm | 
+Biology & Nature | What part of a plant usually absorbs water from soil? | The roots | 
+Biology & Nature | What process do plants use to turn light into chemical energy? | Photosynthesis | 
+Biology & Nature | What green pigment helps plants capture light? | Chlorophyll | 
+Biology & Nature | What do bees collect from flowers to make honey? | Nectar | 
+Biology & Nature | What is the study of fungi called? | Mycology | 
+Biology & Nature | What is the study of insects called? | Entomology | 
+Biology & Nature | What is the largest species of shark? | The whale shark | 
+Biology & Nature | What is the largest animal known to have lived on Earth? | The blue whale | 
+Biology & Nature | What is a baby frog called? | A tadpole | 
+Biology & Nature | What is the process by which a caterpillar becomes a butterfly called? | Metamorphosis | 
+Biology & Nature | Which mammal is capable of true powered flight? | A bat | 
+Biology & Nature | What do you call animals that are most active at night? | Nocturnal | 
+Biology & Nature | What term describes animals that eat both plants and animals? | Omnivores | 
+Biology & Nature | What term describes animals that eat only plants? | Herbivores | 
+Biology & Nature | What term describes animals that eat other animals? | Carnivores | 
+Biology & Nature | What is the largest living land animal? | The African elephant | 
+Biology & Nature | What is the fastest land animal over short distances? | The cheetah | 
+Biology & Nature | What is the only continent where giraffes are native in the wild? | Africa | 
+Biology & Nature | What type of animal is a Komodo dragon? | A lizard | 
+Biology & Nature | What is the study of birds called? | Ornithology | 
+Biology & Nature | What is the scientific name for modern humans? | Homo sapiens | 
+Biology & Nature | What do we call an organism that makes its own food, such as a plant? | A producer (or autotroph) | 
+Biology & Nature | What is the term for an organism's natural home? | A habitat | 
+Books & Literature | Who wrote Romeo and Juliet? | William Shakespeare | 
+Books & Literature | Who wrote Pride and Prejudice? | Jane Austen | 
+Books & Literature | Who wrote 1984? | George Orwell | 
+Books & Literature | Who wrote Animal Farm? | George Orwell | 
+Books & Literature | Who wrote The Hobbit? | J. R. R. Tolkien | 
+Books & Literature | Who wrote The Lord of the Rings? | J. R. R. Tolkien | 
+Books & Literature | Who wrote Frankenstein? | Mary Shelley | 
+Books & Literature | Who wrote The Odyssey, traditionally attributed to him? | Homer | 
+Books & Literature | Who wrote The Iliad, traditionally attributed to him? | Homer | 
+Books & Literature | Who wrote Don Quixote? | Miguel de Cervantes | 
+Books & Literature | Who wrote Moby-Dick? | Herman Melville | 
+Books & Literature | Who wrote The Great Gatsby? | F. Scott Fitzgerald | 
+Books & Literature | Who wrote To Kill a Mockingbird? | Harper Lee | 
+Books & Literature | Who wrote The Catcher in the Rye? | J. D. Salinger | 
+Books & Literature | Who wrote The Divine Comedy? | Dante Alighieri | 
+Books & Literature | Who wrote The Chronicles of Narnia? | C. S. Lewis | 
+Books & Literature | Who wrote The Handmaid's Tale? | Margaret Atwood | 
+Books & Literature | Who wrote The Old Man and the Sea? | Ernest Hemingway | 
+Books & Literature | Who wrote The Picture of Dorian Gray? | Oscar Wilde | 
+Books & Literature | Who wrote Jane Eyre? | Charlotte Brontë | 
+Books & Literature | Who wrote Wuthering Heights? | Emily Brontë | 
+Books & Literature | Who wrote The Adventures of Tom Sawyer? | Mark Twain | 
+Books & Literature | Who created the detective Sherlock Holmes? | Arthur Conan Doyle | 
+Books & Literature | Who wrote The Little Prince? | Antoine de Saint-Exupéry | 
+Books & Literature | Who wrote One Hundred Years of Solitude? | Gabriel García Márquez | 
+Books & Literature | Who wrote The Trial? | Franz Kafka | 
+Books & Literature | Who wrote The Metamorphosis? | Franz Kafka | 
+Books & Literature | Who wrote The Hunger Games? | Suzanne Collins | 
+Books & Literature | Who wrote Harry Potter and the Philosopher's Stone? | J. K. Rowling | 
+Books & Literature | Who wrote The Color Purple? | Alice Walker | 
+Books & Literature | Who wrote Beloved? | Toni Morrison | 
+Books & Literature | Who wrote The Grapes of Wrath? | John Steinbeck | 
+Books & Literature | Who wrote Of Mice and Men? | John Steinbeck | 
+Books & Literature | Who wrote The Canterbury Tales? | Geoffrey Chaucer | 
+Books & Literature | Who wrote Les Misérables? | Victor Hugo | 
+Books & Literature | Who wrote War and Peace? | Leo Tolstoy | 
+Books & Literature | Who wrote Crime and Punishment? | Fyodor Dostoevsky | 
+Books & Literature | Who wrote The Brothers Karamazov? | Fyodor Dostoevsky | 
+Books & Literature | Who wrote The Adventures of Huckleberry Finn? | Mark Twain | 
+Books & Literature | Who wrote The Cat in the Hat? | Dr. Seuss | 
+Books & Literature | What is the name of the detective created by Agatha Christie who has a distinctive mustache? | Hercule Poirot | 
+Books & Literature | Who created Miss Marple? | Agatha Christie | 
+Books & Literature | Who wrote The Hobbit's prequel-style companion, The Silmarillion? | J. R. R. Tolkien | 
+Books & Literature | What is the name of the whale in Moby-Dick? | Moby Dick | 
+Books & Literature | What is the name of the narrator in The Great Gatsby? | Nick Carraway | 
+Books & Literature | What is the surname of the sisters in Little Women? | March | 
+Books & Literature | Who wrote Little Women? | Louisa May Alcott | 
+Books & Literature | Who wrote The Scarlet Letter? | Nathaniel Hawthorne | 
+Books & Literature | Who wrote Fahrenheit 451? | Ray Bradbury | 
+Books & Literature | Who wrote Brave New World? | Aldous Huxley | 
+Books & Literature | Who wrote The Road? | Cormac McCarthy | 
+Books & Literature | Who wrote The Name of the Rose? | Umberto Eco | 
+Books & Literature | Who wrote The Wind in the Willows? | Kenneth Grahame | 
+Books & Literature | Who wrote The Secret Garden? | Frances Hodgson Burnett | 
+Books & Literature | Who wrote Charlotte's Web? | E. B. White | 
+Books & Literature | Who wrote Where the Wild Things Are? | Maurice Sendak | 
+Books & Literature | Who wrote The Giving Tree? | Shel Silverstein | 
+Books & Literature | Who wrote The Phantom Tollbooth? | Norton Juster | 
+Books & Literature | Who wrote The Martian? | Andy Weir | 
+Books & Literature | Who wrote Dune? | Frank Herbert | 
+Books & Literature | Who wrote The Hitchhiker's Guide to the Galaxy? | Douglas Adams | 
+Books & Literature | Who wrote The Bell Jar? | Sylvia Plath | 
+Books & Literature | Who wrote The Outsiders? | S. E. Hinton | 
+Books & Literature | Who wrote The Book Thief? | Markus Zusak | 
+Books & Literature | Who wrote The Kite Runner? | Khaled Hosseini | 
+Books & Literature | Who wrote The Alchemist? | Paulo Coelho | 
+Books & Literature | Who wrote The Three Musketeers? | Alexandre Dumas | 
+Books & Literature | Who wrote The Count of Monte Cristo? | Alexandre Dumas | 
+Books & Literature | Who wrote A Christmas Carol? | Charles Dickens | 
+Books & Literature | Who wrote Oliver Twist? | Charles Dickens | 
+Civics & Government | How many amendments are in the U.S. Constitution's Bill of Rights? | Ten | 
+Civics & Government | What are the first ten amendments to the U.S. Constitution collectively called? | The Bill of Rights | 
+Civics & Government | How many branches are in the U.S. federal government? | Three | 
+Civics & Government | What are the three branches of the U.S. federal government? | Legislative, executive, and judicial | 
+Civics & Government | Which branch of the U.S. government interprets laws? | The judicial branch | 
+Civics & Government | Which branch of the U.S. government makes federal laws? | The legislative branch | 
+Civics & Government | Which branch of the U.S. government enforces federal laws? | The executive branch | 
+Civics & Government | What is the upper chamber of the U.S. Congress called? | The Senate | 
+Civics & Government | What is the lower chamber of the U.S. Congress called? | The House of Representatives | 
+Civics & Government | How many U.S. senators does each state elect? | Two | 
+Civics & Government | How long is a U.S. president's elected term? | Four years | 
+Civics & Government | How long is a U.S. senator's term? | Six years | 
+Civics & Government | How long is a U.S. representative's term? | Two years | 
+Civics & Government | What is the supreme law of the United States? | The U.S. Constitution | 
+Civics & Government | What is the capital of the United States? | Washington, D.C. | Washington DC; Washington, DC
+Civics & Government | What document formally ended the American Revolutionary War? | The Treaty of Paris of 1783 | 
+Civics & Government | Who was the main author of the Declaration of the Rights of Man and of the Citizen? | It was a collective revolutionary document, not the work of one sole author | 
+Civics & Government | What is the name of the legislature of the United Kingdom? | Parliament | 
+Civics & Government | What is the elected lower house of the UK Parliament called? | The House of Commons | 
+Civics & Government | What is the upper house of the UK Parliament called? | The House of Lords | 
+Civics & Government | What is the international organization founded in 1945 to promote peace and cooperation? | The United Nations | UN
+Civics & Government | Where is the headquarters of the United Nations? | New York City | 
+Civics & Government | What court is the principal judicial organ of the United Nations? | The International Court of Justice | 
+Civics & Government | What international organization is responsible for global public health coordination? | The World Health Organization | 
+Civics & Government | What does NATO stand for? | North Atlantic Treaty Organization | 
+Food & Cooking | What is the main ingredient in traditional guacamole? | Avocado | 
+Food & Cooking | What grain is used to make risotto? | Rice, typically Arborio rice | 
+Food & Cooking | What is tofu primarily made from? | Soybeans | 
+Food & Cooking | What spice is made from the dried stigmas of a crocus flower? | Saffron | 
+Food & Cooking | What is the main ingredient in hummus? | Chickpeas | 
+Food & Cooking | What cheese is traditionally used in a Greek salad? | Feta | 
+Food & Cooking | What is the main ingredient in miso paste? | Fermented soybeans | 
+Food & Cooking | What is the name of the Japanese dish of vinegared rice often served with seafood? | Sushi | 
+Food & Cooking | What is the primary ingredient in traditional pesto alla Genovese? | Basil | 
+Food & Cooking | What fruit is dried to make prunes? | Plums | 
+Food & Cooking | What is the main ingredient in polenta? | Cornmeal | 
+Food & Cooking | Which nut is used to make marzipan? | Almond | 
+Food & Cooking | What is the main ingredient in kimchi? | Usually napa cabbage or Korean radish | 
+Food & Cooking | What is the name of the French pastry made from layered puff pastry and almond cream? | Pithivier | 
+Food & Cooking | What type of pasta is shaped like little rice grains? | Orzo | 
+Food & Cooking | What is the primary ingredient in falafel? | Chickpeas or fava beans | 
+Food & Cooking | What is the main ingredient in traditional Japanese soba noodles? | Buckwheat | 
+Food & Cooking | What is the name of the Mexican sauce often made with chilies and chocolate? | Mole | 
+Food & Cooking | Which herb is commonly used to make tabbouleh green and fresh? | Parsley | 
+Food & Cooking | What is the main ingredient in a traditional omelet? | Eggs | 
+Food & Cooking | What is the name of the process that turns milk into yogurt? | Bacterial fermentation | 
+Food & Cooking | What is the main ingredient in sauerkraut? | Cabbage | 
+Food & Cooking | Which country is most associated with the origin of pizza as we know it today? | Italy | 
+Food & Cooking | What is the primary ingredient in the Japanese seasoning wasabi? | Wasabi rhizome (commonly called a root) | 
+Food & Cooking | What is the name of the Spanish rice dish often made with saffron and seafood? | Paella | 
+Food & Cooking | What is the main ingredient in a classic meringue? | Whipped egg whites and sugar | 
+Food & Cooking | Which fruit is traditionally used to make cider? | Apples | 
+Food & Cooking | What is the main ingredient in paneer? | Milk | 
+Food & Cooking | What is the main ingredient in a traditional tortilla española? | Eggs and potatoes | 
+Food & Cooking | What is the main ingredient in the Middle Eastern dip baba ganoush? | Eggplant | 
+General Knowledge | How many days are in a leap year? | 366 | 
+General Knowledge | How many months have 31 days? | Seven | 
+General Knowledge | How many sides does a hexagon have? | Six | 
+General Knowledge | How many sides does an octagon have? | Eight | 
+General Knowledge | How many degrees are in a right angle? | 90 | 
+General Knowledge | How many degrees are in a full circle? | 360 | 
+General Knowledge | What is the Roman numeral for 50? | L | 
+General Knowledge | What is the Roman numeral for 100? | C | 
+General Knowledge | What is the Roman numeral for 500? | D | 
+General Knowledge | What is the Roman numeral for 1,000? | M | 
+General Knowledge | What is the currency of Japan? | The yen | 
+General Knowledge | What is the currency of the United Kingdom? | The pound sterling | 
+General Knowledge | What is the currency of Switzerland? | The Swiss franc | 
+General Knowledge | What is the currency of India? | The Indian rupee | 
+General Knowledge | What is the currency of Mexico? | The Mexican peso | 
+General Knowledge | How many colors are traditionally named in a rainbow? | Seven | 
+General Knowledge | What is the first month of the year in the Gregorian calendar? | January | 
+General Knowledge | What is the last month of the year in the Gregorian calendar? | December | 
+General Knowledge | What is the freezing point of water at standard atmospheric pressure in Celsius? | 0°C | 
+General Knowledge | What is the boiling point of water at standard atmospheric pressure in Celsius? | 100°C | 
+General Knowledge | How many teeth does a typical adult human have, including wisdom teeth? | 32 | 
+General Knowledge | How many bones are typically in an adult human skeleton? | 206 | 
+General Knowledge | What is the name of the shape with three sides? | A triangle | 
+General Knowledge | What is the name of a polygon with five sides? | A pentagon | 
+General Knowledge | What is the name of a polygon with six sides? | A hexagon | 
+General Knowledge | What is the opposite direction of north? | South | 
+General Knowledge | What is the opposite direction of east? | West | 
+General Knowledge | How many minutes are in one hour? | 60 | 
+General Knowledge | How many seconds are in one minute? | 60 | 
+General Knowledge | How many hours are in one day? | 24 | 
+General Knowledge | How many days are in a common year? | 365 | 
+General Knowledge | What is the first element on the periodic table? | Hydrogen | 
+General Knowledge | What is the hardest naturally occurring mineral on the Mohs scale? | Diamond | 
+General Knowledge | What is the main ingredient in glass? | Silica, commonly from sand | 
+General Knowledge | What is the name of the fear of confined spaces? | Claustrophobia | 
+General Knowledge | What is the name of the fear of heights? | Acrophobia | 
+General Knowledge | What is the study of weather called? | Meteorology | 
+General Knowledge | What is the study of maps called? | Cartography | 
+General Knowledge | What is the study of fossils called? | Paleontology | 
+General Knowledge | What is the name for a word made by blending two words, such as 'brunch'? | A portmanteau | 
+History | In what year was the U.S. Declaration of Independence adopted? | 1776 | 
+History | Who was the principal author of the U.S. Declaration of Independence? | Thomas Jefferson | 
+History | Who was the first president of the United States? | George Washington | 
+History | In what year did the American Civil War begin? | 1861 | 
+History | In what year did the American Civil War end? | 1865 | 
+History | What document begins with the words 'We the People'? | The U.S. Constitution | 
+History | What was the name of the ship on which the Pilgrims traveled to North America in 1620? | The Mayflower | 
+History | Which ancient civilization built the pyramids at Giza? | Ancient Egyptians | 
+History | What ancient city was buried by the eruption of Mount Vesuvius in AD 79? | Pompeii | 
+History | Who was the first emperor of Rome? | Augustus | 
+History | Which wall fell in 1989, symbolizing the end of a divided Berlin? | The Berlin Wall | 
+History | In what year did World War II end? | 1945 | 
+History | In what year did World War I begin? | 1914 | 
+History | In what year did World War I end? | 1918 | 
+History | Who was the British prime minister for much of World War II? | Winston Churchill | 
+History | Who was the first person to walk on the Moon? | Neil Armstrong | 
+History | In what year did Apollo 11 land humans on the Moon? | 1969 | 
+History | Which ship sank on its maiden voyage in 1912 after hitting an iceberg? | The Titanic | 
+History | Who led India's nonviolent independence movement and is widely known as Mahatma? | Mohandas K. Gandhi | 
+History | Which empire was ruled by Genghis Khan? | The Mongol Empire | 
+History | What was the name of the trade route network linking East Asia and the Mediterranean? | The Silk Road | 
+History | Which French leader became emperor in 1804? | Napoleon Bonaparte | 
+History | What revolution began in France in 1789? | The French Revolution | 
+History | Which civilization developed a writing system using cuneiform in Mesopotamia? | The Sumerians | 
+History | Which ancient Greek city-state is often associated with the birth of democracy? | Athens | 
+History | Who was the first woman to fly solo across the Atlantic Ocean? | Amelia Earhart | 
+History | Who was the first woman to win a Nobel Prize? | Marie Curie | 
+History | Which U.S. president issued the Emancipation Proclamation? | Abraham Lincoln | 
+History | What year did the Emancipation Proclamation take effect? | 1863 | 
+History | What was the name of the first artificial satellite launched into orbit? | Sputnik 1 | 
+History | Which country gifted the Statue of Liberty to the United States? | France | 
+History | Who was the first person to reach the South Pole, in 1911? | Roald Amundsen | 
+History | Which civilization built Machu Picchu? | The Inca | 
+History | Which English king is associated with the Magna Carta of 1215? | King John | 
+History | What pandemic devastated Europe in the 14th century and is commonly called the Black Death? | The bubonic plague | 
+History | Who was the first president of South Africa after apartheid, elected in 1994? | Nelson Mandela | 
+History | In what year did the Soviet Union dissolve? | 1991 | 
+History | Which ancient wonder stood in Alexandria and served as a lighthouse? | The Lighthouse of Alexandria | 
+History | What was the name of the U.S. program that helped rebuild Western Europe after World War II? | The Marshall Plan | 
+History | Which civilization used a calendar and built major cities such as Tikal? | The Maya | 
+Math | What is 2 squared? | 4 | 
+Math | What is 2 multiplied by 10? | 20 | 
+Math | What is 3 squared? | 9 | 
+Math | What is 3 multiplied by 10? | 30 | 
+Math | What is 4 squared? | 16 | 
+Math | What is 4 multiplied by 10? | 40 | 
+Math | What is 5 squared? | 25 | 
+Math | What is 5 multiplied by 10? | 50 | 
+Math | What is 6 squared? | 36 | 
+Math | What is 6 multiplied by 10? | 60 | 
+Math | What is 7 squared? | 49 | 
+Math | What is 7 multiplied by 10? | 70 | 
+Math | What is 8 squared? | 64 | 
+Math | What is 8 multiplied by 10? | 80 | 
+Math | What is 9 squared? | 81 | 
+Math | What is 9 multiplied by 10? | 90 | 
+Math | What is 10 squared? | 100 | 
+Math | What is 10 multiplied by 10? | 100 | 
+Math | What is 11 squared? | 121 | 
+Math | What is 11 multiplied by 10? | 110 | 
+Math | What is 12 squared? | 144 | 
+Math | What is 12 multiplied by 10? | 120 | 
+Math | What is 13 squared? | 169 | 
+Math | What is 13 multiplied by 10? | 130 | 
+Math | What is 14 squared? | 196 | 
+Math | What is 14 multiplied by 10? | 140 | 
+Math | What is 15 squared? | 225 | 
+Math | What is 15 multiplied by 10? | 150 | 
+Math | What is 16 squared? | 256 | 
+Math | What is 16 multiplied by 10? | 160 | 
+Math | What is 17 squared? | 289 | 
+Math | What is 17 multiplied by 10? | 170 | 
+Math | What is 18 squared? | 324 | 
+Math | What is 18 multiplied by 10? | 180 | 
+Math | What is 19 squared? | 361 | 
+Math | What is 19 multiplied by 10? | 190 | 
+Math | What is 20 squared? | 400 | 
+Math | What is 20 multiplied by 10? | 200 | 
+Math | What is 21 squared? | 441 | 
+Math | What is 21 multiplied by 10? | 210 | 
+Math | What is 22 squared? | 484 | 
+Math | What is 22 multiplied by 10? | 220 | 
+Math | What is 23 squared? | 529 | 
+Math | What is 23 multiplied by 10? | 230 | 
+Math | What is 24 squared? | 576 | 
+Math | What is 24 multiplied by 10? | 240 | 
+Math | What is 25 squared? | 625 | 
+Math | What is 25 multiplied by 10? | 250 | 
+Math | What is 26 squared? | 676 | 
+Math | What is 26 multiplied by 10? | 260 | 
+Math | What is 27 squared? | 729 | 
+Math | What is 27 multiplied by 10? | 270 | 
+Math | What is 28 squared? | 784 | 
+Math | What is 28 multiplied by 10? | 280 | 
+Math | What is 29 squared? | 841 | 
+Math | What is 29 multiplied by 10? | 290 | 
+Math | What is 30 squared? | 900 | 
+Math | What is 30 multiplied by 10? | 300 | 
+Math | What is 31 squared? | 961 | 
+Math | What is 31 multiplied by 10? | 310 | 
+Math | What is 32 squared? | 1024 | 
+Math | What is 32 multiplied by 10? | 320 | 
+Math | What is 33 squared? | 1089 | 
+Math | What is 33 multiplied by 10? | 330 | 
+Math | What is 34 squared? | 1156 | 
+Math | What is 34 multiplied by 10? | 340 | 
+Math | What is 35 squared? | 1225 | 
+Math | What is 35 multiplied by 10? | 350 | 
+Math | What is 36 squared? | 1296 | 
+Math | What is 36 multiplied by 10? | 360 | 
+Math | What is 37 squared? | 1369 | 
+Math | What is 37 multiplied by 10? | 370 | 
+Math | What is 38 squared? | 1444 | 
+Math | What is 38 multiplied by 10? | 380 | 
+Math | What is 39 squared? | 1521 | 
+Math | What is 39 multiplied by 10? | 390 | 
+Math | What is 40 squared? | 1600 | 
+Math | What is 40 multiplied by 10? | 400 | 
+Math | What is 41 squared? | 1681 | 
+Math | What is 41 multiplied by 10? | 410 | 
+Math | What is 42 squared? | 1764 | 
+Math | What is 42 multiplied by 10? | 420 | 
+Math | What is 43 squared? | 1849 | 
+Math | What is 43 multiplied by 10? | 430 | 
+Math | What is 44 squared? | 1936 | 
+Math | What is 44 multiplied by 10? | 440 | 
+Math | What is 45 squared? | 2025 | 
+Math | What is 45 multiplied by 10? | 450 | 
+Math | What is 46 squared? | 2116 | 
+Math | What is 46 multiplied by 10? | 460 | 
+Math | What is 47 squared? | 2209 | 
+Math | What is 47 multiplied by 10? | 470 | 
+Math | What is 48 squared? | 2304 | 
+Math | What is 48 multiplied by 10? | 480 | 
+Math | What is 49 squared? | 2401 | 
+Math | What is 49 multiplied by 10? | 490 | 
+Math | What is 50 squared? | 2500 | 
+Math | What is 50 multiplied by 10? | 500 | 
+Math | What is 51 squared? | 2601 | 
+Math | What is 51 multiplied by 10? | 510 | 
+Math | What is 52 squared? | 2704 | 
+Math | What is 52 multiplied by 10? | 520 | 
+Math | What is 53 squared? | 2809 | 
+Math | What is 53 multiplied by 10? | 530 | 
+Math | What is 54 squared? | 2916 | 
+Math | What is 54 multiplied by 10? | 540 | 
+Math | What is 55 squared? | 3025 | 
+Math | What is 55 multiplied by 10? | 550 | 
+Math | What is 56 squared? | 3136 | 
+Math | What is 56 multiplied by 10? | 560 | 
+Math | What is 57 squared? | 3249 | 
+Math | What is 57 multiplied by 10? | 570 | 
+Math | What is 58 squared? | 3364 | 
+Math | What is 58 multiplied by 10? | 580 | 
+Math | What is 59 squared? | 3481 | 
+Math | What is 59 multiplied by 10? | 590 | 
+Math | What is 60 squared? | 3600 | 
+Math | What is 60 multiplied by 10? | 600 | 
+Math | What is 61 squared? | 3721 | 
+Math | What is 61 multiplied by 10? | 610 | 
+Math | What is 62 squared? | 3844 | 
+Math | What is 62 multiplied by 10? | 620 | 
+Math | What is 63 squared? | 3969 | 
+Math | What is 63 multiplied by 10? | 630 | 
+Math | What is 64 squared? | 4096 | 
+Math | What is 64 multiplied by 10? | 640 | 
+Math | What is 65 squared? | 4225 | 
+Math | What is 65 multiplied by 10? | 650 | 
+Math | What is 66 squared? | 4356 | 
+Math | What is 66 multiplied by 10? | 660 | 
+Math | What is 67 squared? | 4489 | 
+Math | What is 67 multiplied by 10? | 670 | 
+Math | What is 68 squared? | 4624 | 
+Math | What is 68 multiplied by 10? | 680 | 
+Math | What is 69 squared? | 4761 | 
+Math | What is 69 multiplied by 10? | 690 | 
+Math | What is 70 squared? | 4900 | 
+Math | What is 70 multiplied by 10? | 700 | 
+Math | What is 71 squared? | 5041 | 
+Math | What is 71 multiplied by 10? | 710 | 
+Math | What is 72 squared? | 5184 | 
+Math | What is 72 multiplied by 10? | 720 | 
+Math | What is 73 squared? | 5329 | 
+Math | What is 73 multiplied by 10? | 730 | 
+Math | What is 74 squared? | 5476 | 
+Math | What is 74 multiplied by 10? | 740 | 
+Math | What is 75 squared? | 5625 | 
+Math | What is 75 multiplied by 10? | 750 | 
+Math | What is 76 squared? | 5776 | 
+Math | What is 76 multiplied by 10? | 760 | 
+Math | What is 77 squared? | 5929 | 
+Math | What is 77 multiplied by 10? | 770 | 
+Math | What is 78 squared? | 6084 | 
+Math | What is 78 multiplied by 10? | 780 | 
+Math | What is 79 squared? | 6241 | 
+Math | What is 79 multiplied by 10? | 790 | 
+Math | What is 80 squared? | 6400 | 
+Math | What is 80 multiplied by 10? | 800 | 
+Math | What is 81 squared? | 6561 | 
+Math | What is 81 multiplied by 10? | 810 | 
+Math | What is 82 squared? | 6724 | 
+Math | What is 82 multiplied by 10? | 820 | 
+Math | What is 83 squared? | 6889 | 
+Math | What is 83 multiplied by 10? | 830 | 
+Math | What is 84 squared? | 7056 | 
+Math | What is 84 multiplied by 10? | 840 | 
+Math | What is 85 squared? | 7225 | 
+Math | What is 85 multiplied by 10? | 850 | 
+Math | What is 86 squared? | 7396 | 
+Math | What is 86 multiplied by 10? | 860 | 
+Math | What is 87 squared? | 7569 | 
+Math | What is 87 multiplied by 10? | 870 | 
+Math | What is 88 squared? | 7744 | 
+Math | What is 88 multiplied by 10? | 880 | 
+Math | What is 89 squared? | 7921 | 
+Math | What is 89 multiplied by 10? | 890 | 
+Math | What is 90 squared? | 8100 | 
+Math | What is 90 multiplied by 10? | 900 | 
+Math | What is 91 squared? | 8281 | 
+Math | What is 91 multiplied by 10? | 910 | 
+Math | What is 92 squared? | 8464 | 
+Math | What is 92 multiplied by 10? | 920 | 
+Math | What is 93 squared? | 8649 | 
+Math | What is 93 multiplied by 10? | 930 | 
+Math | What is 94 squared? | 8836 | 
+Math | What is 94 multiplied by 10? | 940 | 
+Math | What is 95 squared? | 9025 | 
+Math | What is 95 multiplied by 10? | 950 | 
+Math | What is 96 squared? | 9216 | 
+Math | What is 96 multiplied by 10? | 960 | 
+Math | What is 97 squared? | 9409 | 
+Math | What is 97 multiplied by 10? | 970 | 
+Math | What is 98 squared? | 9604 | 
+Math | What is 98 multiplied by 10? | 980 | 
+Math | What is 99 squared? | 9801 | 
+Math | What is 99 multiplied by 10? | 990 | 
+Math | What is 100 squared? | 10000 | 
+Math | What is 100 multiplied by 10? | 1000 | 
+Math | What is 2 × 2? | 4 | 
+Math | What is 2 × 3? | 6 | 
+Math | What is 2 × 4? | 8 | 
+Math | What is 2 × 5? | 10 | 
+Math | What is 2 × 6? | 12 | 
+Math | What is 2 × 7? | 14 | 
+Math | What is 2 × 8? | 16 | 
+Math | What is 2 × 9? | 18 | 
+Math | What is 2 × 10? | 20 | 
+Math | What is 2 × 11? | 22 | 
+Math | What is 2 × 12? | 24 | 
+Math | What is 2 × 13? | 26 | 
+Math | What is 2 × 14? | 28 | 
+Math | What is 2 × 15? | 30 | 
+Math | What is 3 × 2? | 6 | 
+Math | What is 3 × 3? | 9 | 
+Math | What is 3 × 4? | 12 | 
+Math | What is 3 × 5? | 15 | 
+Math | What is 3 × 6? | 18 | 
+Math | What is 3 × 7? | 21 | 
+Math | What is 3 × 8? | 24 | 
+Math | What is 3 × 9? | 27 | 
+Math | What is 3 × 10? | 30 | 
+Math | What is 3 × 11? | 33 | 
+Math | What is 3 × 12? | 36 | 
+Math | What is 3 × 13? | 39 | 
+Math | What is 3 × 14? | 42 | 
+Math | What is 3 × 15? | 45 | 
+Math | What is 4 × 2? | 8 | 
+Math | What is 4 × 3? | 12 | 
+Math | What is 4 × 4? | 16 | 
+Math | What is 4 × 5? | 20 | 
+Math | What is 4 × 6? | 24 | 
+Math | What is 4 × 7? | 28 | 
+Math | What is 4 × 8? | 32 | 
+Math | What is 4 × 9? | 36 | 
+Math | What is 4 × 10? | 40 | 
+Math | What is 4 × 11? | 44 | 
+Math | What is 4 × 12? | 48 | 
+Math | What is 4 × 13? | 52 | 
+Math | What is 4 × 14? | 56 | 
+Math | What is 4 × 15? | 60 | 
+Math | What is 5 × 2? | 10 | 
+Math | What is 5 × 3? | 15 | 
+Math | What is 5 × 4? | 20 | 
+Math | What is 5 × 5? | 25 | 
+Math | What is 5 × 6? | 30 | 
+Math | What is 5 × 7? | 35 | 
+Math | What is 5 × 8? | 40 | 
+Math | What is 5 × 9? | 45 | 
+Math | What is 5 × 10? | 50 | 
+Math | What is 5 × 11? | 55 | 
+Math | What is 5 × 12? | 60 | 
+Math | What is 5 × 13? | 65 | 
+Math | What is 5 × 14? | 70 | 
+Math | What is 5 × 15? | 75 | 
+Math | What is 6 × 2? | 12 | 
+Math | What is 6 × 3? | 18 | 
+Math | What is 6 × 4? | 24 | 
+Math | What is 6 × 5? | 30 | 
+Math | What is 6 × 6? | 36 | 
+Math | What is 6 × 7? | 42 | 
+Math | What is 6 × 8? | 48 | 
+Math | What is 6 × 9? | 54 | 
+Math | What is 6 × 10? | 60 | 
+Math | What is 6 × 11? | 66 | 
+Math | What is 6 × 12? | 72 | 
+Math | What is 6 × 13? | 78 | 
+Math | What is 6 × 14? | 84 | 
+Math | What is 6 × 15? | 90 | 
+Math | What is 7 × 2? | 14 | 
+Math | What is 7 × 3? | 21 | 
+Math | What is 7 × 4? | 28 | 
+Math | What is 7 × 5? | 35 | 
+Math | What is 7 × 6? | 42 | 
+Math | What is 7 × 7? | 49 | 
+Math | What is 7 × 8? | 56 | 
+Math | What is 7 × 9? | 63 | 
+Math | What is 7 × 10? | 70 | 
+Math | What is 7 × 11? | 77 | 
+Math | What is 7 × 12? | 84 | 
+Math | What is 7 × 13? | 91 | 
+Math | What is 7 × 14? | 98 | 
+Math | What is 7 × 15? | 105 | 
+Math | What is 8 × 2? | 16 | 
+Math | What is 8 × 3? | 24 | 
+Math | What is 8 × 4? | 32 | 
+Math | What is 8 × 5? | 40 | 
+Math | What is 8 × 6? | 48 | 
+Math | What is 8 × 7? | 56 | 
+Math | What is 8 × 8? | 64 | 
+Math | What is 8 × 9? | 72 | 
+Math | What is 8 × 10? | 80 | 
+Math | What is 8 × 11? | 88 | 
+Math | What is 8 × 12? | 96 | 
+Math | What is 8 × 13? | 104 | 
+Math | What is 8 × 14? | 112 | 
+Math | What is 8 × 15? | 120 | 
+Math | What is 9 × 2? | 18 | 
+Math | What is 9 × 3? | 27 | 
+Math | What is 9 × 4? | 36 | 
+Math | What is 9 × 5? | 45 | 
+Math | What is 9 × 6? | 54 | 
+Math | What is 9 × 7? | 63 | 
+Math | What is 9 × 8? | 72 | 
+Math | What is 9 × 9? | 81 | 
+Math | What is 9 × 10? | 90 | 
+Math | What is 9 × 11? | 99 | 
+Math | What is 9 × 12? | 108 | 
+Math | What is 9 × 13? | 117 | 
+Math | What is 9 × 14? | 126 | 
+Math | What is 9 × 15? | 135 | 
+Math | What is 10 × 2? | 20 | 
+Math | What is 10 × 3? | 30 | 
+Math | What is 10 × 4? | 40 | 
+Math | What is 10 × 5? | 50 | 
+Math | What is 10 × 6? | 60 | 
+Math | What is 10 × 7? | 70 | 
+Math | What is 10 × 8? | 80 | 
+Math | What is 10 × 9? | 90 | 
+Math | What is 10 × 10? | 100 | 
+Math | What is 10 × 11? | 110 | 
+Math | What is 10 × 12? | 120 | 
+Math | What is 10 × 13? | 130 | 
+Math | What is 10 × 14? | 140 | 
+Math | What is 10 × 15? | 150 | 
+Math | What is 11 × 2? | 22 | 
+Math | What is 11 × 3? | 33 | 
+Math | What is 11 × 4? | 44 | 
+Math | What is 11 × 5? | 55 | 
+Math | What is 11 × 6? | 66 | 
+Math | What is 11 × 7? | 77 | 
+Math | What is 11 × 8? | 88 | 
+Math | What is 11 × 9? | 99 | 
+Math | What is 11 × 10? | 110 | 
+Math | What is 11 × 11? | 121 | 
+Math | What is 11 × 12? | 132 | 
+Math | What is 11 × 13? | 143 | 
+Math | What is 11 × 14? | 154 | 
+Math | What is 11 × 15? | 165 | 
+Math | What is 12 × 2? | 24 | 
+Math | What is 12 × 3? | 36 | 
+Math | What is 12 × 4? | 48 | 
+Math | What is 12 × 5? | 60 | 
+Math | What is 12 × 6? | 72 | 
+Math | What is 12 × 7? | 84 | 
+Math | What is 12 × 8? | 96 | 
+Math | What is 12 × 9? | 108 | 
+Math | What is 12 × 10? | 120 | 
+Math | What is 12 × 11? | 132 | 
+Math | What is 12 × 12? | 144 | 
+Math | What is 12 × 13? | 156 | 
+Math | What is 12 × 14? | 168 | 
+Math | What is 12 × 15? | 180 | 
+Math | What is 13 × 2? | 26 | 
+Math | What is 13 × 3? | 39 | 
+Math | What is 13 × 4? | 52 | 
+Math | What is 13 × 5? | 65 | 
+Math | What is 13 × 6? | 78 | 
+Math | What is 13 × 7? | 91 | 
+Math | What is 13 × 8? | 104 | 
+Math | What is 13 × 9? | 117 | 
+Math | What is 13 × 10? | 130 | 
+Math | What is 13 × 11? | 143 | 
+Math | What is 13 × 12? | 156 | 
+Math | What is 13 × 13? | 169 | 
+Math | What is 13 × 14? | 182 | 
+Math | What is 13 × 15? | 195 | 
+Math | What is 14 × 2? | 28 | 
+Math | What is 14 × 3? | 42 | 
+Math | What is 14 × 4? | 56 | 
+Math | What is 14 × 5? | 70 | 
+Math | What is 14 × 6? | 84 | 
+Math | What is 14 × 7? | 98 | 
+Math | What is 14 × 8? | 112 | 
+Math | What is 14 × 9? | 126 | 
+Math | What is 14 × 10? | 140 | 
+Math | What is 14 × 11? | 154 | 
+Math | What is 14 × 12? | 168 | 
+Math | What is 14 × 13? | 182 | 
+Math | What is 14 × 14? | 196 | 
+Math | What is 14 × 15? | 210 | 
+Math | What is 15 × 2? | 30 | 
+Math | What is 15 × 3? | 45 | 
+Math | What is 15 × 4? | 60 | 
+Math | What is 15 × 5? | 75 | 
+Math | What is 15 × 6? | 90 | 
+Math | What is 15 × 7? | 105 | 
+Math | What is 15 × 8? | 120 | 
+Math | What is 15 × 9? | 135 | 
+Math | What is 15 × 10? | 150 | 
+Math | What is 15 × 11? | 165 | 
+Math | What is 15 × 12? | 180 | 
+Math | What is 15 × 13? | 195 | 
+Math | What is 15 × 14? | 210 | 
+Math | What is 15 × 15? | 225 | 
+Math | What is 7 divided by 7? | 1 | 
+Math | What is 14 divided by 7? | 2 | 
+Math | What is 21 divided by 7? | 3 | 
+Math | What is 28 divided by 7? | 4 | 
+Math | What is 35 divided by 7? | 5 | 
+Math | What is 42 divided by 7? | 6 | 
+Math | What is 49 divided by 7? | 7 | 
+Math | What is 56 divided by 7? | 8 | 
+Math | What is 63 divided by 7? | 9 | 
+Math | What is 70 divided by 7? | 10 | 
+Math | What is 77 divided by 7? | 11 | 
+Math | What is 84 divided by 7? | 12 | 
+Math | What is 91 divided by 7? | 13 | 
+Math | What is 98 divided by 7? | 14 | 
+Math | What is 105 divided by 7? | 15 | 
+Math | What is 112 divided by 7? | 16 | 
+Math | What is 119 divided by 7? | 17 | 
+Math | What is 126 divided by 7? | 18 | 
+Math | What is 133 divided by 7? | 19 | 
+Math | What is 140 divided by 7? | 20 | 
+Math | What is 147 divided by 7? | 21 | 
+Math | What is 154 divided by 7? | 22 | 
+Math | What is 161 divided by 7? | 23 | 
+Math | What is 168 divided by 7? | 24 | 
+Math | What is 175 divided by 7? | 25 | 
+Math | What is 182 divided by 7? | 26 | 
+Math | What is 189 divided by 7? | 27 | 
+Math | What is 196 divided by 7? | 28 | 
+Math | What is 203 divided by 7? | 29 | 
+Math | What is 210 divided by 7? | 30 | 
+Math | What is 217 divided by 7? | 31 | 
+Math | What is 224 divided by 7? | 32 | 
+Math | What is 231 divided by 7? | 33 | 
+Math | What is 238 divided by 7? | 34 | 
+Math | What is 245 divided by 7? | 35 | 
+Math | What is 252 divided by 7? | 36 | 
+Math | What is 259 divided by 7? | 37 | 
+Math | What is 266 divided by 7? | 38 | 
+Math | What is 273 divided by 7? | 39 | 
+Math | What is 280 divided by 7? | 40 | 
+Math & Logic | What is 1 multiplied by 12? | 12 | 
+Math & Logic | What is 1 percent of 100? | 1 | 
+Math & Logic | What is 2 multiplied by 12? | 24 | 
+Math & Logic | What is 2 percent of 100? | 2 | 
+Math & Logic | What is 3 multiplied by 12? | 36 | 
+Math & Logic | What is 3 percent of 100? | 3 | 
+Math & Logic | What is 4 multiplied by 12? | 48 | 
+Math & Logic | What is 4 percent of 100? | 4 | 
+Math & Logic | What is 5 multiplied by 12? | 60 | 
+Math & Logic | What is 5 percent of 100? | 5 | 
+Math & Logic | What is 6 multiplied by 12? | 72 | 
+Math & Logic | What is 6 percent of 100? | 6 | 
+Math & Logic | What is 7 multiplied by 12? | 84 | 
+Math & Logic | What is 7 percent of 100? | 7 | 
+Math & Logic | What is 8 multiplied by 12? | 96 | 
+Math & Logic | What is 8 percent of 100? | 8 | 
+Math & Logic | What is 9 multiplied by 12? | 108 | 
+Math & Logic | What is 9 percent of 100? | 9 | 
+Math & Logic | What is 10 multiplied by 12? | 120 | 
+Math & Logic | What is 10 percent of 100? | 10 | 
+Math & Logic | What is 11 multiplied by 12? | 132 | 
+Math & Logic | What is 11 percent of 100? | 11 | 
+Math & Logic | What is 12 multiplied by 12? | 144 | 
+Math & Logic | What is 12 percent of 100? | 12 | 
+Math & Logic | What is 13 multiplied by 12? | 156 | 
+Math & Logic | What is 13 percent of 100? | 13 | 
+Math & Logic | What is 14 multiplied by 12? | 168 | 
+Math & Logic | What is 14 percent of 100? | 14 | 
+Math & Logic | What is 15 multiplied by 12? | 180 | 
+Math & Logic | What is 15 percent of 100? | 15 | 
+Math & Logic | What is 16 multiplied by 12? | 192 | 
+Math & Logic | What is 16 percent of 100? | 16 | 
+Math & Logic | What is 17 multiplied by 12? | 204 | 
+Math & Logic | What is 17 percent of 100? | 17 | 
+Math & Logic | What is 18 multiplied by 12? | 216 | 
+Math & Logic | What is 18 percent of 100? | 18 | 
+Math & Logic | What is 19 multiplied by 12? | 228 | 
+Math & Logic | What is 19 percent of 100? | 19 | 
+Math & Logic | What is 20 multiplied by 12? | 240 | 
+Math & Logic | What is 20 percent of 100? | 20 | 
+Math & Logic | What is 21 multiplied by 12? | 252 | 
+Math & Logic | What is 21 percent of 100? | 21 | 
+Math & Logic | What is 22 multiplied by 12? | 264 | 
+Math & Logic | What is 22 percent of 100? | 22 | 
+Math & Logic | What is 23 multiplied by 12? | 276 | 
+Math & Logic | What is 23 percent of 100? | 23 | 
+Math & Logic | What is 24 multiplied by 12? | 288 | 
+Math & Logic | What is 24 percent of 100? | 24 | 
+Math & Logic | What is 25 multiplied by 12? | 300 | 
+Math & Logic | What is 25 percent of 100? | 25 | 
+Math & Logic | What is 26 multiplied by 12? | 312 | 
+Math & Logic | What is 26 percent of 100? | 26 | 
+Math & Logic | What is 27 multiplied by 12? | 324 | 
+Math & Logic | What is 27 percent of 100? | 27 | 
+Math & Logic | What is 28 multiplied by 12? | 336 | 
+Math & Logic | What is 28 percent of 100? | 28 | 
+Math & Logic | What is 29 multiplied by 12? | 348 | 
+Math & Logic | What is 29 percent of 100? | 29 | 
+Math & Logic | What is 30 multiplied by 12? | 360 | 
+Math & Logic | What is 30 percent of 100? | 30 | 
+Math & Logic | What is 31 multiplied by 12? | 372 | 
+Math & Logic | What is 31 percent of 100? | 31 | 
+Math & Logic | What is 32 multiplied by 12? | 384 | 
+Math & Logic | What is 32 percent of 100? | 32 | 
+Math & Logic | What is 33 multiplied by 12? | 396 | 
+Math & Logic | What is 33 percent of 100? | 33 | 
+Math & Logic | What is 34 multiplied by 12? | 408 | 
+Math & Logic | What is 34 percent of 100? | 34 | 
+Math & Logic | What is 35 multiplied by 12? | 420 | 
+Math & Logic | What is 35 percent of 100? | 35 | 
+Math & Logic | What is 36 multiplied by 12? | 432 | 
+Math & Logic | What is 36 percent of 100? | 36 | 
+Math & Logic | What is 37 multiplied by 12? | 444 | 
+Math & Logic | What is 37 percent of 100? | 37 | 
+Math & Logic | What is 38 multiplied by 12? | 456 | 
+Math & Logic | What is 38 percent of 100? | 38 | 
+Math & Logic | What is 39 multiplied by 12? | 468 | 
+Math & Logic | What is 39 percent of 100? | 39 | 
+Math & Logic | What is 40 multiplied by 12? | 480 | 
+Math & Logic | What is 40 percent of 100? | 40 | 
+Math & Logic | What is 41 multiplied by 12? | 492 | 
+Math & Logic | What is 41 percent of 100? | 41 | 
+Math & Logic | What is 42 multiplied by 12? | 504 | 
+Math & Logic | What is 42 percent of 100? | 42 | 
+Math & Logic | What is 43 multiplied by 12? | 516 | 
+Math & Logic | What is 43 percent of 100? | 43 | 
+Math & Logic | What is 44 multiplied by 12? | 528 | 
+Math & Logic | What is 44 percent of 100? | 44 | 
+Math & Logic | What is 45 multiplied by 12? | 540 | 
+Math & Logic | What is 45 percent of 100? | 45 | 
+Math & Logic | What is 46 multiplied by 12? | 552 | 
+Math & Logic | What is 46 percent of 100? | 46 | 
+Math & Logic | What is 47 multiplied by 12? | 564 | 
+Math & Logic | What is 47 percent of 100? | 47 | 
+Math & Logic | What is 48 multiplied by 12? | 576 | 
+Math & Logic | What is 48 percent of 100? | 48 | 
+Math & Logic | What is 49 multiplied by 12? | 588 | 
+Math & Logic | What is 49 percent of 100? | 49 | 
+Math & Logic | What is 50 multiplied by 12? | 600 | 
+Math & Logic | What is 50 percent of 100? | 50 | 
+Math & Logic | What is 51 multiplied by 12? | 612 | 
+Math & Logic | What is 51 percent of 100? | 51 | 
+Math & Logic | What is 52 multiplied by 12? | 624 | 
+Math & Logic | What is 52 percent of 100? | 52 | 
+Math & Logic | What is 53 multiplied by 12? | 636 | 
+Math & Logic | What is 53 percent of 100? | 53 | 
+Math & Logic | What is 54 multiplied by 12? | 648 | 
+Math & Logic | What is 54 percent of 100? | 54 | 
+Math & Logic | What is 55 multiplied by 12? | 660 | 
+Math & Logic | What is 55 percent of 100? | 55 | 
+Math & Logic | What is 56 multiplied by 12? | 672 | 
+Math & Logic | What is 56 percent of 100? | 56 | 
+Math & Logic | What is 57 multiplied by 12? | 684 | 
+Math & Logic | What is 57 percent of 100? | 57 | 
+Math & Logic | What is 58 multiplied by 12? | 696 | 
+Math & Logic | What is 58 percent of 100? | 58 | 
+Math & Logic | What is 59 multiplied by 12? | 708 | 
+Math & Logic | What is 59 percent of 100? | 59 | 
+Math & Logic | What is 60 multiplied by 12? | 720 | 
+Math & Logic | What is 60 percent of 100? | 60 | 
+Math & Logic | What is 61 multiplied by 12? | 732 | 
+Math & Logic | What is 61 percent of 100? | 61 | 
+Math & Logic | What is 62 multiplied by 12? | 744 | 
+Math & Logic | What is 62 percent of 100? | 62 | 
+Math & Logic | What is 63 multiplied by 12? | 756 | 
+Math & Logic | What is 63 percent of 100? | 63 | 
+Math & Logic | What is 64 multiplied by 12? | 768 | 
+Math & Logic | What is 64 percent of 100? | 64 | 
+Math & Logic | What is 65 multiplied by 12? | 780 | 
+Math & Logic | What is 65 percent of 100? | 65 | 
+Math & Logic | What is 66 multiplied by 12? | 792 | 
+Math & Logic | What is 66 percent of 100? | 66 | 
+Math & Logic | What is 67 multiplied by 12? | 804 | 
+Math & Logic | What is 67 percent of 100? | 67 | 
+Math & Logic | What is 68 multiplied by 12? | 816 | 
+Math & Logic | What is 68 percent of 100? | 68 | 
+Math & Logic | What is 69 multiplied by 12? | 828 | 
+Math & Logic | What is 69 percent of 100? | 69 | 
+Math & Logic | What is 70 multiplied by 12? | 840 | 
+Math & Logic | What is 70 percent of 100? | 70 | 
+Math & Logic | What is 71 multiplied by 12? | 852 | 
+Math & Logic | What is 71 percent of 100? | 71 | 
+Math & Logic | What is 72 multiplied by 12? | 864 | 
+Math & Logic | What is 72 percent of 100? | 72 | 
+Math & Logic | What is 73 multiplied by 12? | 876 | 
+Math & Logic | What is 73 percent of 100? | 73 | 
+Math & Logic | What is 74 multiplied by 12? | 888 | 
+Math & Logic | What is 74 percent of 100? | 74 | 
+Math & Logic | What is 75 multiplied by 12? | 900 | 
+Math & Logic | What is 75 percent of 100? | 75 | 
+Math & Logic | What is 76 multiplied by 12? | 912 | 
+Math & Logic | What is 76 percent of 100? | 76 | 
+Math & Logic | What is 77 multiplied by 12? | 924 | 
+Math & Logic | What is 77 percent of 100? | 77 | 
+Math & Logic | What is 78 multiplied by 12? | 936 | 
+Math & Logic | What is 78 percent of 100? | 78 | 
+Math & Logic | What is 79 multiplied by 12? | 948 | 
+Math & Logic | What is 79 percent of 100? | 79 | 
+Math & Logic | What is 80 multiplied by 12? | 960 | 
+Math & Logic | What is 80 percent of 100? | 80 | 
+Math & Logic | What is 81 multiplied by 12? | 972 | 
+Math & Logic | What is 81 percent of 100? | 81 | 
+Math & Logic | What is 82 multiplied by 12? | 984 | 
+Math & Logic | What is 82 percent of 100? | 82 | 
+Math & Logic | What is 83 multiplied by 12? | 996 | 
+Math & Logic | What is 83 percent of 100? | 83 | 
+Math & Logic | What is 84 multiplied by 12? | 1008 | 
+Math & Logic | What is 84 percent of 100? | 84 | 
+Math & Logic | What is 85 multiplied by 12? | 1020 | 
+Math & Logic | What is 85 percent of 100? | 85 | 
+Math & Logic | What is 86 multiplied by 12? | 1032 | 
+Math & Logic | What is 86 percent of 100? | 86 | 
+Math & Logic | What is 87 multiplied by 12? | 1044 | 
+Math & Logic | What is 87 percent of 100? | 87 | 
+Math & Logic | What is 88 multiplied by 12? | 1056 | 
+Math & Logic | What is 88 percent of 100? | 88 | 
+Math & Logic | What is 89 multiplied by 12? | 1068 | 
+Math & Logic | What is 89 percent of 100? | 89 | 
+Math & Logic | What is 90 multiplied by 12? | 1080 | 
+Math & Logic | What is 90 percent of 100? | 90 | 
+Math & Logic | What is 91 multiplied by 12? | 1092 | 
+Math & Logic | What is 91 percent of 100? | 91 | 
+Math & Logic | What is 92 multiplied by 12? | 1104 | 
+Math & Logic | What is 92 percent of 100? | 92 | 
+Math & Logic | What is 93 multiplied by 12? | 1116 | 
+Math & Logic | What is 93 percent of 100? | 93 | 
+Math & Logic | What is 94 multiplied by 12? | 1128 | 
+Math & Logic | What is 94 percent of 100? | 94 | 
+Math & Logic | What is 95 multiplied by 12? | 1140 | 
+Math & Logic | What is 95 percent of 100? | 95 | 
+Math & Logic | What is 96 multiplied by 12? | 1152 | 
+Math & Logic | What is 96 percent of 100? | 96 | 
+Math & Logic | What is 97 multiplied by 12? | 1164 | 
+Math & Logic | What is 97 percent of 100? | 97 | 
+Math & Logic | What is 98 multiplied by 12? | 1176 | 
+Math & Logic | What is 98 percent of 100? | 98 | 
+Math & Logic | What is 99 multiplied by 12? | 1188 | 
+Math & Logic | What is 99 percent of 100? | 99 | 
+Math & Logic | What is 100 multiplied by 12? | 1200 | 
+Math & Logic | What is 100 percent of 100? | 100 | 
+Math & Logic | What is the next even number after 2? | 4 | 
+Math & Logic | What is the next even number after 4? | 6 | 
+Math & Logic | What is the next even number after 6? | 8 | 
+Math & Logic | What is the next even number after 8? | 10 | 
+Math & Logic | What is the next even number after 10? | 12 | 
+Math & Logic | What is the next even number after 12? | 14 | 
+Math & Logic | What is the next even number after 14? | 16 | 
+Math & Logic | What is the next even number after 16? | 18 | 
+Math & Logic | What is the next even number after 18? | 20 | 
+Math & Logic | What is the next even number after 20? | 22 | 
+Math & Logic | What is the next even number after 22? | 24 | 
+Math & Logic | What is the next even number after 24? | 26 | 
+Math & Logic | What is the next even number after 26? | 28 | 
+Math & Logic | What is the next even number after 28? | 30 | 
+Math & Logic | What is the next even number after 30? | 32 | 
+Math & Logic | What is the next even number after 32? | 34 | 
+Math & Logic | What is the next even number after 34? | 36 | 
+Math & Logic | What is the next even number after 36? | 38 | 
+Math & Logic | What is the next even number after 38? | 40 | 
+Math & Logic | What is the next even number after 40? | 42 | 
+Math & Logic | What is the next even number after 42? | 44 | 
+Math & Logic | What is the next even number after 44? | 46 | 
+Math & Logic | What is the next even number after 46? | 48 | 
+Math & Logic | What is the next even number after 48? | 50 | 
+Math & Logic | What is the next even number after 50? | 52 | 
+Math & Logic | What is the next even number after 52? | 54 | 
+Math & Logic | What is the next even number after 54? | 56 | 
+Math & Logic | What is the next even number after 56? | 58 | 
+Math & Logic | What is the next even number after 58? | 60 | 
+Math & Logic | What is the next even number after 60? | 62 | 
+Math & Logic | What is the next even number after 62? | 64 | 
+Math & Logic | What is the next even number after 64? | 66 | 
+Math & Logic | What is the next even number after 66? | 68 | 
+Math & Logic | What is the next even number after 68? | 70 | 
+Math & Logic | What is the next even number after 70? | 72 | 
+Math & Logic | What is the next even number after 72? | 74 | 
+Math & Logic | What is the next even number after 74? | 76 | 
+Math & Logic | What is the next even number after 76? | 78 | 
+Math & Logic | What is the next even number after 78? | 80 | 
+Math & Logic | What is the next even number after 80? | 82 | 
+Math & Logic | What is the next even number after 82? | 84 | 
+Math & Logic | What is the next even number after 84? | 86 | 
+Math & Logic | What is the next even number after 86? | 88 | 
+Math & Logic | What is the next even number after 88? | 90 | 
+Math & Logic | What is the next even number after 90? | 92 | 
+Math & Logic | What is the next even number after 92? | 94 | 
+Math & Logic | What is the next even number after 94? | 96 | 
+Math & Logic | What is the next even number after 96? | 98 | 
+Math & Logic | What is the next even number after 98? | 100 | 
+Math & Logic | What is the next even number after 100? | 102 | 
+Math & Logic | What is 1 cubed? | 1 | 
+Math & Logic | What is 2 cubed? | 8 | 
+Math & Logic | What is 3 cubed? | 27 | 
+Math & Logic | What is 4 cubed? | 64 | 
+Math & Logic | What is 5 cubed? | 125 | 
+Math & Logic | What is 6 cubed? | 216 | 
+Math & Logic | What is 7 cubed? | 343 | 
+Math & Logic | What is 8 cubed? | 512 | 
+Math & Logic | What is 9 cubed? | 729 | 
+Math & Logic | What is 10 cubed? | 1000 | 
+Math & Logic | What is 11 cubed? | 1331 | 
+Math & Logic | What is 12 cubed? | 1728 | 
+Math & Logic | What is 13 cubed? | 2197 | 
+Math & Logic | What is 14 cubed? | 2744 | 
+Math & Logic | What is 15 cubed? | 3375 | 
+Math & Logic | What is 16 cubed? | 4096 | 
+Math & Logic | What is 17 cubed? | 4913 | 
+Math & Logic | What is 18 cubed? | 5832 | 
+Math & Logic | What is 19 cubed? | 6859 | 
+Math & Logic | What is 20 cubed? | 8000 | 
+Math & Logic | What is 21 cubed? | 9261 | 
+Math & Logic | What is 22 cubed? | 10648 | 
+Math & Logic | What is 23 cubed? | 12167 | 
+Math & Logic | What is 24 cubed? | 13824 | 
+Math & Logic | What is 25 cubed? | 15625 | 
+Math & Logic | What is 26 cubed? | 17576 | 
+Math & Logic | What is 27 cubed? | 19683 | 
+Math & Logic | What is 28 cubed? | 21952 | 
+Math & Logic | What is 29 cubed? | 24389 | 
+Math & Logic | What is 30 cubed? | 27000 | 
+Math & Logic | What is 31 cubed? | 29791 | 
+Math & Logic | What is 32 cubed? | 32768 | 
+Math & Logic | What is 33 cubed? | 35937 | 
+Math & Logic | What is 34 cubed? | 39304 | 
+Math & Logic | What is 35 cubed? | 42875 | 
+Math & Logic | What is 36 cubed? | 46656 | 
+Math & Logic | What is 37 cubed? | 50653 | 
+Math & Logic | What is 38 cubed? | 54872 | 
+Math & Logic | What is 39 cubed? | 59319 | 
+Math & Logic | What is 40 cubed? | 64000 | 
+Math & Logic | What is 41 cubed? | 68921 | 
+Math & Logic | What is 42 cubed? | 74088 | 
+Math & Logic | What is 43 cubed? | 79507 | 
+Math & Logic | What is 44 cubed? | 85184 | 
+Math & Logic | What is 45 cubed? | 91125 | 
+Math & Logic | What is 46 cubed? | 97336 | 
+Math & Logic | What is 47 cubed? | 103823 | 
+Math & Logic | What is 48 cubed? | 110592 | 
+Math & Logic | What is 49 cubed? | 117649 | 
+Math & Logic | What is 50 cubed? | 125000 | 
+Math & Logic | Math challenge: what is 56 multiplied by 89? | 4984 | 
+Movies, Tv & Music | In which film does Dorothy travel to the Land of Oz? | The Wizard of Oz | 
+Movies, Tv & Music | What is the name of the fictional African nation in Black Panther? | Wakanda | 
+Movies, Tv & Music | Which film features the quote 'I'll be back' spoken by a cyborg assassin? | The Terminator | 
+Movies, Tv & Music | What is the name of the cowboy toy in Toy Story? | Woody | 
+Movies, Tv & Music | What is the name of the space ranger in Toy Story? | Buzz Lightyear | 
+Movies, Tv & Music | Which movie features a shark terrorizing a beach town, directed by Steven Spielberg? | Jaws | 
+Movies, Tv & Music | What is the name of the kingdom in Disney's Frozen? | Arendelle | 
+Movies, Tv & Music | Which film franchise features the character Indiana Jones? | Indiana Jones | 
+Movies, Tv & Music | What is the name of the school attended by Harry Potter? | Hogwarts | 
+Movies, Tv & Music | Which movie features the song 'My Heart Will Go On'? | Titanic | 
+Movies, Tv & Music | What is the name of the kingdom in The Lion King? | The Pride Lands | 
+Movies, Tv & Music | Which animated film features a rat named Remy who wants to cook? | Ratatouille | 
+Movies, Tv & Music | What is the name of the ship in the original Star Trek series? | USS Enterprise | 
+Movies, Tv & Music | Who directed Jurassic Park (1993)? | Steven Spielberg | 
+Movies, Tv & Music | Which film features the character Darth Vader? | Star Wars | 
+Movies, Tv & Music | What is the name of the fictional metal associated with Wolverine's skeleton? | Adamantium | 
+Movies, Tv & Music | Which TV sitcom features the coffee shop Central Perk? | Friends | 
+Movies, Tv & Music | What is the name of the paper company in The Office (U.S.)? | Dunder Mifflin | 
+Movies, Tv & Music | Which TV series follows the Stark and Lannister families? | Game of Thrones | 
+Movies, Tv & Music | What is the name of the town where The Simpsons live? | Springfield | 
+Movies, Tv & Music | Which animated series features the characters Finn and Jake? | Adventure Time | 
+Movies, Tv & Music | Who played Jack in the 1997 film Titanic? | Leonardo DiCaprio | 
+Movies, Tv & Music | Who played Hermione Granger in the Harry Potter films? | Emma Watson | 
+Movies, Tv & Music | Which actor played Iron Man in the Marvel Cinematic Universe? | Robert Downey Jr. | 
+Movies, Tv & Music | Which singer is known as the 'King of Rock and Roll'? | Elvis Presley | 
+Movies, Tv & Music | Which singer released the album Thriller? | Michael Jackson | 
+Movies, Tv & Music | Which British band recorded the album Abbey Road? | The Beatles | 
+Movies, Tv & Music | Who was the lead singer of Queen? | Freddie Mercury | 
+Movies, Tv & Music | Which instrument has 88 keys on a standard modern version? | The piano | 
+Movies, Tv & Music | How many strings does a standard violin have? | Four | 
+Movies, Tv & Music | Which musical symbol raises a note by a semitone? | A sharp | 
+Movies, Tv & Music | What is the term for the speed of a piece of music? | Tempo | 
+Movies, Tv & Music | Which composer wrote the Fifth Symphony famous for its opening motif? | Ludwig van Beethoven | 
+Movies, Tv & Music | Who composed The Four Seasons? | Antonio Vivaldi | 
+Movies, Tv & Music | Which composer continued composing after becoming profoundly deaf? | Ludwig van Beethoven | 
+Movies, Tv & Music | What is the highest common adult female singing voice type? | Soprano | 
+Movies, Tv & Music | What is the lowest common adult male singing voice type? | Bass | 
+Movies, Tv & Music | Which music genre is strongly associated with improvisation and swing? | Jazz | 
+Movies, Tv & Music | Which Jamaican music genre is associated with Bob Marley? | Reggae | 
+Movies, Tv & Music | What is the name for a group of three notes played together as a chord? | A triad | 
+Music | How many keys are on a standard full-size piano? | 88 | 
+Music | What is the smallest standard orchestral string instrument? | The violin | 
+Music | Which brass instrument commonly has a slide? | The trombone | 
+Music | Which instrument is associated with Louis Armstrong? | The trumpet | 
+Music | What is the lowest instrument in the standard orchestral woodwind family? | The bassoon | 
+Music | What is the Italian musical direction 'forte' telling a musician to do? | Play loudly | 
+Music | What is the Italian musical direction 'piano' telling a musician to do? | Play softly | 
+Music | How many beats does a whole note receive in common time? | Four | 
+Music | What is the term for gradually getting louder in music? | Crescendo | 
+Music | What is the term for gradually getting softer in music? | Diminuendo (or decrescendo) | 
+Music | What is a song performed by one person alone called? | A solo | 
+Music | What is the term for a group of singers performing together? | A choir | 
+Music | What is the term for music written for a film? | A film score | 
+Music | Which instrument family does the clarinet belong to? | Woodwind | 
+Music | Which instrument family does the trumpet belong to? | Brass | 
+Music | Which instrument family does the timpani belong to? | Percussion | 
+Music | What is the term for the repeated section of a song that usually returns after verses? | The chorus | 
+Music | What is a short musical idea that recurs in a composition called? | A motif | 
+Music | What is the term for two or more different notes sounding together? | Harmony | 
+Music | What is a melody? | A sequence of pitches perceived as a musical line | 
+Mythology & Folklore | In Greek mythology, who is king of the gods? | Zeus | 
+Mythology & Folklore | In Greek mythology, who is the god of the sea? | Poseidon | 
+Mythology & Folklore | In Greek mythology, who is goddess of wisdom? | Athena | 
+Mythology & Folklore | In Greek mythology, who is the god of the underworld? | Hades | 
+Mythology & Folklore | In Greek mythology, who is the messenger of the gods? | Hermes | 
+Mythology & Folklore | In Greek mythology, who is the god of music and prophecy? | Apollo | 
+Mythology & Folklore | In Greek mythology, who is the goddess of love? | Aphrodite | 
+Mythology & Folklore | In Greek mythology, what creature has the body of a lion and the head and wings of an eagle? | A griffin | 
+Mythology & Folklore | What is the name of the winged horse in Greek mythology? | Pegasus | 
+Mythology & Folklore | Who flew too close to the Sun with wings made of feathers and wax? | Icarus | 
+Mythology & Folklore | Who was condemned to roll a boulder uphill forever? | Sisyphus | 
+Mythology & Folklore | In Norse mythology, what is the name of the thunder god? | Thor | 
+Mythology & Folklore | In Norse mythology, who is the chief god associated with wisdom and war? | Odin | 
+Mythology & Folklore | What is the name of the world tree in Norse mythology? | Yggdrasil | 
+Mythology & Folklore | What is the name of the Norse end-times battle? | Ragnarök | 
+Mythology & Folklore | In Egyptian mythology, who is the god of the afterlife often shown with a jackal head? | Anubis | 
+Mythology & Folklore | In Egyptian mythology, who is the sun god commonly called Ra? | Ra | 
+Mythology & Folklore | In Roman mythology, who is the equivalent of the Greek Zeus? | Jupiter | 
+Mythology & Folklore | In Roman mythology, who is the goddess of wisdom and crafts? | Minerva | 
+Mythology & Folklore | What is the name of the legendary king associated with Camelot? | King Arthur | 
+Mythology & Folklore | Who is the wizard and mentor in Arthurian legend? | Merlin | 
+Mythology & Folklore | What weapon is traditionally associated with King Arthur? | Excalibur | 
+Mythology & Folklore | In Japanese folklore, what is a kitsune? | A fox spirit | 
+Mythology & Folklore | In Hindu tradition, which deity is widely known as the remover of obstacles and has an elephant head? | Ganesha | 
+Mythology & Folklore | In Māori tradition, who is the trickster and culture hero known for slowing the Sun? | Māui | 
+Science: Chemistry | What is the chemical symbol for Hydrogen? | H | 
+Science: Chemistry | Which element has the symbol H? | Hydrogen | 
+Science: Chemistry | What is the chemical symbol for Helium? | He | 
+Science: Chemistry | Which element has the symbol He? | Helium | 
+Science: Chemistry | What is the chemical symbol for Lithium? | Li | 
+Science: Chemistry | Which element has the symbol Li? | Lithium | 
+Science: Chemistry | What is the chemical symbol for Beryllium? | Be | 
+Science: Chemistry | Which element has the symbol Be? | Beryllium | 
+Science: Chemistry | What is the chemical symbol for Boron? | B | 
+Science: Chemistry | Which element has the symbol B? | Boron | 
+Science: Chemistry | What is the chemical symbol for Carbon? | C | 
+Science: Chemistry | Which element has the symbol C? | Carbon | 
+Science: Chemistry | What is the chemical symbol for Nitrogen? | N | 
+Science: Chemistry | Which element has the symbol N? | Nitrogen | 
+Science: Chemistry | What is the chemical symbol for Oxygen? | O | 
+Science: Chemistry | Which element has the symbol O? | Oxygen | 
+Science: Chemistry | What is the chemical symbol for Fluorine? | F | 
+Science: Chemistry | Which element has the symbol F? | Fluorine | 
+Science: Chemistry | What is the chemical symbol for Neon? | Ne | 
+Science: Chemistry | Which element has the symbol Ne? | Neon | 
+Science: Chemistry | What is the chemical symbol for Sodium? | Na | 
+Science: Chemistry | Which element has the symbol Na? | Sodium | 
+Science: Chemistry | What is the chemical symbol for Magnesium? | Mg | 
+Science: Chemistry | Which element has the symbol Mg? | Magnesium | 
+Science: Chemistry | What is the chemical symbol for Aluminum? | Al | 
+Science: Chemistry | Which element has the symbol Al? | Aluminum | 
+Science: Chemistry | What is the chemical symbol for Silicon? | Si | 
+Science: Chemistry | Which element has the symbol Si? | Silicon | 
+Science: Chemistry | What is the chemical symbol for Phosphorus? | P | 
+Science: Chemistry | Which element has the symbol P? | Phosphorus | 
+Science: Chemistry | What is the chemical symbol for Sulfur? | S | 
+Science: Chemistry | Which element has the symbol S? | Sulfur | 
+Science: Chemistry | What is the chemical symbol for Chlorine? | Cl | 
+Science: Chemistry | Which element has the symbol Cl? | Chlorine | 
+Science: Chemistry | What is the chemical symbol for Argon? | Ar | 
+Science: Chemistry | Which element has the symbol Ar? | Argon | 
+Science: Chemistry | What is the chemical symbol for Potassium? | K | 
+Science: Chemistry | Which element has the symbol K? | Potassium | 
+Science: Chemistry | What is the chemical symbol for Calcium? | Ca | 
+Science: Chemistry | Which element has the symbol Ca? | Calcium | 
+Science: Chemistry | What is the chemical symbol for Scandium? | Sc | 
+Science: Chemistry | Which element has the symbol Sc? | Scandium | 
+Science: Chemistry | What is the chemical symbol for Titanium? | Ti | 
+Science: Chemistry | Which element has the symbol Ti? | Titanium | 
+Science: Chemistry | What is the chemical symbol for Vanadium? | V | 
+Science: Chemistry | Which element has the symbol V? | Vanadium | 
+Science: Chemistry | What is the chemical symbol for Chromium? | Cr | 
+Science: Chemistry | Which element has the symbol Cr? | Chromium | 
+Science: Chemistry | What is the chemical symbol for Manganese? | Mn | 
+Science: Chemistry | Which element has the symbol Mn? | Manganese | 
+Science: Chemistry | What is the chemical symbol for Iron? | Fe | 
+Science: Chemistry | Which element has the symbol Fe? | Iron | 
+Science: Chemistry | What is the chemical symbol for Cobalt? | Co | 
+Science: Chemistry | Which element has the symbol Co? | Cobalt | 
+Science: Chemistry | What is the chemical symbol for Nickel? | Ni | 
+Science: Chemistry | Which element has the symbol Ni? | Nickel | 
+Science: Chemistry | What is the chemical symbol for Copper? | Cu | 
+Science: Chemistry | Which element has the symbol Cu? | Copper | 
+Science: Chemistry | What is the chemical symbol for Zinc? | Zn | 
+Science: Chemistry | Which element has the symbol Zn? | Zinc | 
+Science: Chemistry | What is the chemical symbol for Gallium? | Ga | 
+Science: Chemistry | Which element has the symbol Ga? | Gallium | 
+Science: Chemistry | What is the chemical symbol for Germanium? | Ge | 
+Science: Chemistry | Which element has the symbol Ge? | Germanium | 
+Science: Chemistry | What is the chemical symbol for Arsenic? | As | 
+Science: Chemistry | Which element has the symbol As? | Arsenic | 
+Science: Chemistry | What is the chemical symbol for Selenium? | Se | 
+Science: Chemistry | Which element has the symbol Se? | Selenium | 
+Science: Chemistry | What is the chemical symbol for Bromine? | Br | 
+Science: Chemistry | Which element has the symbol Br? | Bromine | 
+Science: Chemistry | What is the chemical symbol for Krypton? | Kr | 
+Science: Chemistry | Which element has the symbol Kr? | Krypton | 
+Science: Chemistry | What is the chemical symbol for Rubidium? | Rb | 
+Science: Chemistry | Which element has the symbol Rb? | Rubidium | 
+Science: Chemistry | What is the chemical symbol for Strontium? | Sr | 
+Science: Chemistry | Which element has the symbol Sr? | Strontium | 
+Science: Chemistry | What is the chemical symbol for Yttrium? | Y | 
+Science: Chemistry | Which element has the symbol Y? | Yttrium | 
+Science: Chemistry | What is the chemical symbol for Zirconium? | Zr | 
+Science: Chemistry | Which element has the symbol Zr? | Zirconium | 
+Science: Chemistry | What is the chemical symbol for Niobium? | Nb | 
+Science: Chemistry | Which element has the symbol Nb? | Niobium | 
+Science: Chemistry | What is the chemical symbol for Molybdenum? | Mo | 
+Science: Chemistry | Which element has the symbol Mo? | Molybdenum | 
+Science: Chemistry | What is the chemical symbol for Technetium? | Tc | 
+Science: Chemistry | Which element has the symbol Tc? | Technetium | 
+Science: Chemistry | What is the chemical symbol for Ruthenium? | Ru | 
+Science: Chemistry | Which element has the symbol Ru? | Ruthenium | 
+Science: Chemistry | What is the chemical symbol for Rhodium? | Rh | 
+Science: Chemistry | Which element has the symbol Rh? | Rhodium | 
+Science: Chemistry | What is the chemical symbol for Palladium? | Pd | 
+Science: Chemistry | Which element has the symbol Pd? | Palladium | 
+Science: Chemistry | What is the chemical symbol for Silver? | Ag | 
+Science: Chemistry | Which element has the symbol Ag? | Silver | 
+Science: Chemistry | What is the chemical symbol for Cadmium? | Cd | 
+Science: Chemistry | Which element has the symbol Cd? | Cadmium | 
+Science: Chemistry | What is the chemical symbol for Indium? | In | 
+Science: Chemistry | Which element has the symbol In? | Indium | 
+Science: Chemistry | What is the chemical symbol for Tin? | Sn | 
+Science: Chemistry | Which element has the symbol Sn? | Tin | 
+Science: Chemistry | What is the chemical symbol for Antimony? | Sb | 
+Science: Chemistry | Which element has the symbol Sb? | Antimony | 
+Science: Chemistry | What is the chemical symbol for Tellurium? | Te | 
+Science: Chemistry | Which element has the symbol Te? | Tellurium | 
+Science: Chemistry | What is the chemical symbol for Iodine? | I | 
+Science: Chemistry | Which element has the symbol I? | Iodine | 
+Science: Chemistry | What is the chemical symbol for Xenon? | Xe | 
+Science: Chemistry | Which element has the symbol Xe? | Xenon | 
+Science: Chemistry | What is the chemical symbol for Cesium? | Cs | 
+Science: Chemistry | Which element has the symbol Cs? | Cesium | 
+Science: Chemistry | What is the chemical symbol for Barium? | Ba | 
+Science: Chemistry | Which element has the symbol Ba? | Barium | 
+Science: Chemistry | What is the chemical symbol for Lanthanum? | La | 
+Science: Chemistry | Which element has the symbol La? | Lanthanum | 
+Science: Chemistry | What is the chemical symbol for Cerium? | Ce | 
+Science: Chemistry | Which element has the symbol Ce? | Cerium | 
+Science: Chemistry | What is the chemical symbol for Praseodymium? | Pr | 
+Science: Chemistry | Which element has the symbol Pr? | Praseodymium | 
+Science: Chemistry | What is the chemical symbol for Neodymium? | Nd | 
+Science: Chemistry | Which element has the symbol Nd? | Neodymium | 
+Science: Chemistry | What is the chemical symbol for Promethium? | Pm | 
+Science: Chemistry | Which element has the symbol Pm? | Promethium | 
+Science: Chemistry | What is the chemical symbol for Samarium? | Sm | 
+Science: Chemistry | Which element has the symbol Sm? | Samarium | 
+Science: Chemistry | What is the chemical symbol for Europium? | Eu | 
+Science: Chemistry | Which element has the symbol Eu? | Europium | 
+Science: Chemistry | What is the chemical symbol for Gadolinium? | Gd | 
+Science: Chemistry | Which element has the symbol Gd? | Gadolinium | 
+Science: Chemistry | What is the chemical symbol for Terbium? | Tb | 
+Science: Chemistry | Which element has the symbol Tb? | Terbium | 
+Science: Chemistry | What is the chemical symbol for Dysprosium? | Dy | 
+Science: Chemistry | Which element has the symbol Dy? | Dysprosium | 
+Science: Chemistry | What is the chemical symbol for Holmium? | Ho | 
+Science: Chemistry | Which element has the symbol Ho? | Holmium | 
+Science: Chemistry | What is the chemical symbol for Erbium? | Er | 
+Science: Chemistry | Which element has the symbol Er? | Erbium | 
+Science: Chemistry | What is the chemical symbol for Thulium? | Tm | 
+Science: Chemistry | Which element has the symbol Tm? | Thulium | 
+Science: Chemistry | What is the chemical symbol for Ytterbium? | Yb | 
+Science: Chemistry | Which element has the symbol Yb? | Ytterbium | 
+Science: Chemistry | What is the chemical symbol for Lutetium? | Lu | 
+Science: Chemistry | Which element has the symbol Lu? | Lutetium | 
+Science: Chemistry | What is the chemical symbol for Hafnium? | Hf | 
+Science: Chemistry | Which element has the symbol Hf? | Hafnium | 
+Science: Chemistry | What is the chemical symbol for Tantalum? | Ta | 
+Science: Chemistry | Which element has the symbol Ta? | Tantalum | 
+Science: Chemistry | What is the chemical symbol for Tungsten? | W | 
+Science: Chemistry | Which element has the symbol W? | Tungsten | 
+Science: Chemistry | What is the chemical symbol for Rhenium? | Re | 
+Science: Chemistry | Which element has the symbol Re? | Rhenium | 
+Science: Chemistry | What is the chemical symbol for Osmium? | Os | 
+Science: Chemistry | Which element has the symbol Os? | Osmium | 
+Science: Chemistry | What is the chemical symbol for Iridium? | Ir | 
+Science: Chemistry | Which element has the symbol Ir? | Iridium | 
+Science: Chemistry | What is the chemical symbol for Platinum? | Pt | 
+Science: Chemistry | Which element has the symbol Pt? | Platinum | 
+Science: Chemistry | What is the chemical symbol for Gold? | Au | 
+Science: Chemistry | Which element has the symbol Au? | Gold | 
+Science: Chemistry | What is the chemical symbol for Mercury? | Hg | 
+Science: Chemistry | Which element has the symbol Hg? | Mercury | 
+Science: Chemistry | What is the chemical symbol for Thallium? | Tl | 
+Science: Chemistry | Which element has the symbol Tl? | Thallium | 
+Science: Chemistry | What is the chemical symbol for Lead? | Pb | 
+Science: Chemistry | Which element has the symbol Pb? | Lead | 
+Science: Chemistry | What is the chemical symbol for Bismuth? | Bi | 
+Science: Chemistry | Which element has the symbol Bi? | Bismuth | 
+Science: Chemistry | What is the chemical symbol for Polonium? | Po | 
+Science: Chemistry | Which element has the symbol Po? | Polonium | 
+Science: Chemistry | What is the chemical symbol for Astatine? | At | 
+Science: Chemistry | Which element has the symbol At? | Astatine | 
+Science: Chemistry | What is the chemical symbol for Radon? | Rn | 
+Science: Chemistry | Which element has the symbol Rn? | Radon | 
+Science: Chemistry | What is the chemical symbol for Francium? | Fr | 
+Science: Chemistry | Which element has the symbol Fr? | Francium | 
+Science: Chemistry | What is the chemical symbol for Radium? | Ra | 
+Science: Chemistry | Which element has the symbol Ra? | Radium | 
+Science: Chemistry | What is the chemical symbol for Actinium? | Ac | 
+Science: Chemistry | Which element has the symbol Ac? | Actinium | 
+Science: Chemistry | What is the chemical symbol for Thorium? | Th | 
+Science: Chemistry | Which element has the symbol Th? | Thorium | 
+Science: Chemistry | What is the chemical symbol for Protactinium? | Pa | 
+Science: Chemistry | Which element has the symbol Pa? | Protactinium | 
+Science: Chemistry | What is the chemical symbol for Uranium? | U | 
+Science: Chemistry | Which element has the symbol U? | Uranium | 
+Science: Chemistry | What is the chemical symbol for Neptunium? | Np | 
+Science: Chemistry | Which element has the symbol Np? | Neptunium | 
+Science: Chemistry | What is the chemical symbol for Plutonium? | Pu | 
+Science: Chemistry | Which element has the symbol Pu? | Plutonium | 
+Science: Chemistry | What is the chemical symbol for Americium? | Am | 
+Science: Chemistry | Which element has the symbol Am? | Americium | 
+Science: Chemistry | What is the chemical symbol for Curium? | Cm | 
+Science: Chemistry | Which element has the symbol Cm? | Curium | 
+Science: Chemistry | What is the chemical symbol for Berkelium? | Bk | 
+Science: Chemistry | Which element has the symbol Bk? | Berkelium | 
+Science: Chemistry | What is the chemical symbol for Californium? | Cf | 
+Science: Chemistry | Which element has the symbol Cf? | Californium | 
+Science: Chemistry | What is the chemical symbol for Einsteinium? | Es | 
+Science: Chemistry | Which element has the symbol Es? | Einsteinium | 
+Science: Chemistry | What is the chemical symbol for Fermium? | Fm | 
+Science: Chemistry | Which element has the symbol Fm? | Fermium | 
+Science: Chemistry | What is the chemical symbol for Mendelevium? | Md | 
+Science: Chemistry | Which element has the symbol Md? | Mendelevium | 
+Science: Chemistry | What is the chemical symbol for Nobelium? | No | 
+Science: Chemistry | Which element has the symbol No? | Nobelium | 
+Science: Chemistry | What is the chemical symbol for Lawrencium? | Lr | 
+Science: Chemistry | Which element has the symbol Lr? | Lawrencium | 
+Science: Chemistry | What is the chemical symbol for Rutherfordium? | Rf | 
+Science: Chemistry | Which element has the symbol Rf? | Rutherfordium | 
+Science: Chemistry | What is the chemical symbol for Dubnium? | Db | 
+Science: Chemistry | Which element has the symbol Db? | Dubnium | 
+Science: Chemistry | What is the chemical symbol for Seaborgium? | Sg | 
+Science: Chemistry | Which element has the symbol Sg? | Seaborgium | 
+Science: Chemistry | What is the chemical symbol for Bohrium? | Bh | 
+Science: Chemistry | Which element has the symbol Bh? | Bohrium | 
+Science: Chemistry | What is the chemical symbol for Hassium? | Hs | 
+Science: Chemistry | Which element has the symbol Hs? | Hassium | 
+Science: Chemistry | What is the chemical symbol for Meitnerium? | Mt | 
+Science: Chemistry | Which element has the symbol Mt? | Meitnerium | 
+Science: Chemistry | What is the chemical symbol for Darmstadtium? | Ds | 
+Science: Chemistry | Which element has the symbol Ds? | Darmstadtium | 
+Science: Chemistry | What is the chemical symbol for Roentgenium? | Rg | 
+Science: Chemistry | Which element has the symbol Rg? | Roentgenium | 
+Science: Chemistry | What is the chemical symbol for Copernicium? | Cn | 
+Science: Chemistry | Which element has the symbol Cn? | Copernicium | 
+Science: Chemistry | What is the chemical symbol for Nihonium? | Nh | 
+Science: Chemistry | Which element has the symbol Nh? | Nihonium | 
+Science: Chemistry | What is the chemical symbol for Flerovium? | Fl | 
+Science: Chemistry | Which element has the symbol Fl? | Flerovium | 
+Science: Chemistry | What is the chemical symbol for Moscovium? | Mc | 
+Science: Chemistry | Which element has the symbol Mc? | Moscovium | 
+Science: Chemistry | What is the chemical symbol for Livermorium? | Lv | 
+Science: Chemistry | Which element has the symbol Lv? | Livermorium | 
+Science: Chemistry | What is the chemical symbol for Tennessine? | Ts | 
+Science: Chemistry | Which element has the symbol Ts? | Tennessine | 
+Science: Chemistry | What is the chemical symbol for Oganesson? | Og | 
+Science: Chemistry | Which element has the symbol Og? | Oganesson | 
+Science: Chemistry | What is the pH of a strongly acidic solution generally below? | 7 | 
+Science: Chemistry | What type of bond involves sharing electron pairs? | A covalent bond | 
+Science: Chemistry | What type of bond involves electrostatic attraction between ions? | An ionic bond | 
+Science: Chemistry | What is the center of an atom called? | The nucleus | 
+Science: Chemistry | What negatively charged particle surrounds an atomic nucleus? | An electron | 
+Science: Chemistry | What positively charged particle is found in an atomic nucleus? | A proton | 
+Science: Chemistry | What neutral particle is found in most atomic nuclei? | A neutron | 
+Science: Chemistry | What is the smallest unit of an element that retains its chemical identity? | An atom | 
+Science: Chemistry | What is a substance made of two or more elements chemically bonded called? | A compound | 
+Science: Chemistry | What is the change from solid directly to gas called? | Sublimation | 
+Science: Physics & Earth | What is the approximate acceleration due to gravity at Earth's surface? | 9.8 m/s² | 
+Science: Physics & Earth | What is the SI unit of force? | The newton | 
+Science: Physics & Earth | What is the SI unit of energy? | The joule | 
+Science: Physics & Earth | What is the SI unit of electric current? | The ampere | 
+Science: Physics & Earth | What is the SI unit of power? | The watt | 
+Science: Physics & Earth | What is the speed of light in a vacuum, approximately? | 300,000 kilometers per second | 
+Science: Physics & Earth | What instrument measures temperature? | A thermometer | 
+Science: Physics & Earth | What instrument measures atmospheric pressure? | A barometer | 
+Science: Physics & Earth | What instrument records earthquake waves? | A seismograph (or seismometer) | 
+Science: Physics & Earth | What is molten rock beneath Earth's surface called? | Magma | 
+Science: Physics & Earth | What is molten rock on Earth's surface called? | Lava | 
+Science: Physics & Earth | What is the outermost solid layer of Earth called? | The crust | 
+Science: Physics & Earth | What is the point on Earth's surface directly above an earthquake's focus called? | The epicenter | 
+Science: Physics & Earth | What type of rock forms when magma or lava cools? | Igneous rock | 
+Science: Physics & Earth | What type of rock forms from compacted sediments? | Sedimentary rock | 
+Science: Physics & Earth | What type of rock forms under heat and pressure? | Metamorphic rock | 
+Science: Physics & Earth | What is the process by which liquid water becomes vapor called? | Evaporation | 
+Science: Physics & Earth | What is water vapor changing into liquid called? | Condensation | 
+Science: Physics & Earth | What scale is commonly used to measure mineral hardness? | The Mohs scale | 
+Science: Physics & Earth | What is the name for the boundary where two tectonic plates meet? | A plate boundary | 
+Science: Physics & Earth | What is the most abundant gas in Earth's atmosphere? | Nitrogen | 
+Science: Physics & Earth | What gas do plants absorb during photosynthesis? | Carbon dioxide | 
+Science: Physics & Earth | What is the chemical formula for water? | H₂O | 
+Science: Physics & Earth | What is the chemical formula for table salt? | NaCl | 
+Science: Physics & Earth | What is the pH of a neutral solution at room temperature? | 7 | 
+Science: Physics & Earth | What kind of energy is associated with motion? | Kinetic energy | 
+Science: Physics & Earth | What kind of energy is stored because of position or configuration? | Potential energy | 
+Science: Physics & Earth | What is the bending of light as it passes between materials called? | Refraction | 
+Science: Physics & Earth | What is the bouncing of light off a surface called? | Reflection | 
+Science: Physics & Earth | What is the splitting of white light into its component colors called? | Dispersion | 
+Space | Which planet is number 1 from the Sun, counting outward? | Mercury | 
+Space | What is the ordinal position of Mercury from the Sun? | 1st | 
+Space | Which planet is number 2 from the Sun, counting outward? | Venus | 
+Space | What is the ordinal position of Venus from the Sun? | 2nd | 
+Space | Which planet is number 3 from the Sun, counting outward? | Earth | 
+Space | What is the ordinal position of Earth from the Sun? | 3rd | 
+Space | Which planet is number 4 from the Sun, counting outward? | Mars | 
+Space | What is the ordinal position of Mars from the Sun? | 4th | 
+Space | Which planet is number 5 from the Sun, counting outward? | Jupiter | 
+Space | What is the ordinal position of Jupiter from the Sun? | 5th | 
+Space | Which planet is number 6 from the Sun, counting outward? | Saturn | 
+Space | What is the ordinal position of Saturn from the Sun? | 6th | 
+Space | Which planet is number 7 from the Sun, counting outward? | Uranus | 
+Space | What is the ordinal position of Uranus from the Sun? | 7th | 
+Space | Which planet is number 8 from the Sun, counting outward? | Neptune | 
+Space | What is the ordinal position of Neptune from the Sun? | 8th | 
+Space | What is the name of Earth's natural satellite? | The Moon | Moon
+Space | What is the name of the galaxy that contains our Solar System? | The Milky Way | Milky Way
+Space | What is the closest star to Earth? | The Sun | Sun
+Space | Which planet is famous for its prominent ring system? | Saturn | 
+Space | Which planet is the largest in the Solar System? | Jupiter | 
+Space | Which planet is often called the Red Planet? | Mars | 
+Space | What force keeps planets in orbit around the Sun? | Gravity | 
+Space | What is the term for a rocky object that enters Earth's atmosphere and glows? | A meteor | 
+Space | What is a group of stars forming a recognized pattern called? | A constellation | 
+Space | What is the name of the closest planet to the Sun? | Mercury | 
+Space | Which planet has the Great Red Spot? | Jupiter | 
+Space | Which planet rotates on its side relative to its orbital plane? | Uranus | 
+Space | What is the name of the boundary around a black hole beyond which light cannot escape? | The event horizon | 
+Space | What is the name of the first human-made object to reach interstellar space? | Voyager 1 | 
+Space | What was the first human-made object to orbit Earth? | Sputnik 1 | 
+Space | What is the name of NASA's space telescope launched in 1990? | The Hubble Space Telescope | 
+Space | What is the name of NASA's space telescope launched in 2021, designed to observe in infrared? | The James Webb Space Telescope | 
+Space | What is the name for a rocky object orbiting the Sun, mostly found between Mars and Jupiter? | An asteroid | 
+Space | What is a small icy Solar System body that can develop a tail near the Sun called? | A comet | 
+Space | What is the term for a star explosion that can briefly outshine a galaxy? | A supernova | 
+Space | What is the name of the galaxy nearest the Milky Way among the large galaxies? | The Andromeda Galaxy | 
+Space | What is the term for a planet outside our Solar System? | An exoplanet | 
+Space | What is the name of the path a celestial object follows around another body? | An orbit | 
+Space | What is the apparent yearly path of the Sun across the sky called? | The ecliptic | 
+Space | What is the name for the phase when the Moon appears fully illuminated from Earth? | Full moon | 
+Space | What is the name for the phase when the Moon is between Earth and the Sun and appears dark? | New moon | 
+Space | What causes a solar eclipse? | The Moon passes between Earth and the Sun | 
+Space | What causes a lunar eclipse? | Earth's shadow falls on the Moon | 
+Space | What is the name of the first American woman in space? | Sally Ride | 
+Sports | How many players from one basketball team are on the court at a time in standard play? | Five | 
+Sports | How many players from one soccer team are on the field at a time, including the goalkeeper? | Eleven | 
+Sports | How many strikes make an out in baseball? | Three | 
+Sports | How many bases are there on a standard baseball diamond, including home plate? | Four | 
+Sports | How many points is a touchdown worth before any conversion attempt? | Six | 
+Sports | How many points is a successful free throw worth in basketball? | One | 
+Sports | In tennis, what score comes after 30 in a standard game? | 40 | 
+Sports | What is the term for zero in tennis scoring? | Love | 
+Sports | How many rings are on the Olympic symbol? | Five | 
+Sports | How often are the Summer Olympic Games normally held? | Every four years | 
+Sports | Which sport uses a shuttlecock? | Badminton | 
+Sports | Which sport is played at Wimbledon? | Tennis | 
+Sports | What is the name of the trophy awarded to the NHL champion? | The Stanley Cup | Stanley Cup
+Sports | Which sport uses the terms birdie and eagle? | Golf | 
+Sports | How many holes are in a standard full round of golf? | 18 | 
+Sports | In volleyball, how many players per team are on court in indoor play? | Six | 
+Sports | What is the maximum score with three darts in one turn if all hit triple 20? | 180 | 
+Sports | Which country is credited with developing modern judo? | Japan | 
+Sports | Which combat sport uses a ring and gloves and prohibits kicking in its standard form? | Boxing | 
+Sports | What color jersey is worn by the overall leader in the Tour de France? | Yellow | 
+Sports | In American football, how many points is a field goal worth? | Three | 
+Sports | What is the name of the area where a soccer goalkeeper can handle the ball? | The penalty area | 
+Sports | Which sport features a scrum? | Rugby | 
+Sports | What is the term for three strikes in a row in bowling? | A turkey | 
+Sports | How many squares are on a standard chessboard? | 64 | 
+Sports | Which chess piece moves in an L shape? | The knight | 
+Sports | In chess, what is it called when the king is under attack? | Check | 
+Sports | Which country hosts the Monaco Grand Prix? | Monaco | 
+Sports | What sport is associated with the Masters tournament at Augusta National? | Golf | 
+Sports | Which sport uses a pommel horse? | Artistic gymnastics | 
+Technology & Inventions | Who is credited with inventing the World Wide Web? | Tim Berners-Lee | 
+Technology & Inventions | What does CPU stand for? | Central processing unit | 
+Technology & Inventions | What does RAM stand for? | Random-access memory | 
+Technology & Inventions | What does URL stand for? | Uniform Resource Locator | 
+Technology & Inventions | What does HTTP stand for? | Hypertext Transfer Protocol | 
+Technology & Inventions | What does USB stand for? | Universal Serial Bus | 
+Technology & Inventions | What does GPS stand for? | Global Positioning System | 
+Technology & Inventions | What does AI stand for? | Artificial intelligence | 
+Technology & Inventions | What does PDF stand for? | Portable Document Format | 
+Technology & Inventions | What does Wi-Fi allow devices to do? | Connect to a wireless local network | 
+Technology & Inventions | Who is associated with inventing the practical telephone and received a major early telephone patent? | Alexander Graham Bell | 
+Technology & Inventions | Who developed the movable-type printing press in Europe in the 15th century? | Johannes Gutenberg | 
+Technology & Inventions | Who is credited with developing the first successful polio vaccine? | Jonas Salk | 
+Technology & Inventions | Who is associated with the invention of the World Wide Web? | Tim Berners-Lee | 
+Technology & Inventions | What does an operating system manage? | A computer's hardware and software resources | 
+Technology & Inventions | What is the name of malicious software that encrypts files and demands payment? | Ransomware | 
+Technology & Inventions | What is a secret string used to verify a user's identity called? | A password or credential | 
+Technology & Inventions | What does two-factor authentication require? | Two different types of verification | 
+Technology & Inventions | What is the name for a network of connected physical devices that collect or exchange data? | The Internet of Things | 
+Technology & Inventions | What is the main function of a web browser? | To retrieve and display web content | 
+Technology & Inventions | What is the binary number system's base? | 2 | 
+Technology & Inventions | How many bits are in a byte in modern computing? | Eight | 
+Technology & Inventions | What is the name of the small image representing an app or file? | An icon | 
+Technology & Inventions | What does open-source software generally make available? | Its source code under a license allowing inspection and specified reuse | 
+Technology & Inventions | What is phishing? | A deceptive attempt to obtain sensitive information by impersonation | 
+Technology & Inventions | What is cloud computing? | Using remote computing resources over a network | 
+Technology & Inventions | What is an algorithm? | A defined sequence of steps for solving a problem | 
+Technology & Inventions | What is a QR code designed to encode? | Data that can be read by a camera or scanner | 
+Technology & Inventions | What does HDMI commonly carry between devices? | Digital audio and video | 
+Technology & Inventions | What is the purpose of a firewall in computing? | To filter network traffic according to security rules | 
+Transportation | What does ABS stand for in automotive braking? | Anti-lock braking system | 
+Transportation | What does VIN stand for? | Vehicle identification number | 
+Transportation | What does RPM measure? | Revolutions per minute | 
+Transportation | What does EV stand for in vehicle technology? | Electric vehicle | 
+Transportation | What is the main purpose of an alternator in a conventional car? | To generate electrical power and charge the battery while the engine runs | 
+Transportation | What does a vehicle's radiator help do? | Remove heat from engine coolant | 
+Transportation | What is the purpose of a differential in a vehicle? | Allow driven wheels to rotate at different speeds while transmitting torque | 
+Transportation | What does a catalytic converter help reduce? | Harmful exhaust emissions | 
+Transportation | What is the term for a vehicle powered by both an internal-combustion engine and an electric motor? | A hybrid | 
+Transportation | What type of engine uses compression ignition rather than spark plugs to ignite fuel? | A diesel engine | 
+Transportation | What is the control surface that changes an airplane's pitch called? | The elevator | 
+Transportation | What is the name for the front edge of an airplane wing? | The leading edge | 
+Transportation | What is the name of the force that opposes an object's motion through air? | Drag | 
+Transportation | What does a ship's port side refer to? | Its left side when facing forward | 
+Transportation | What does a ship's starboard side refer to? | Its right side when facing forward | 
+Transportation | What is the railway track width between the inner faces of the rails called? | Track gauge | 
+Transportation | What does a bicycle's derailleur do? | Moves the chain between gears | 
+Transportation | What is the name for a road intersection controlled by a circular one-way system? | A roundabout | 
+Transportation | What does a black box record on an aircraft? | Flight data and cockpit audio, depending on the recorder | 
+Transportation | What is the name for a vehicle designed to travel on both roads and railways? | A road-rail vehicle | 
+U.S. Geography | What is the capital of Alabama? | Montgomery | 
+U.S. Geography | Which U.S. state has Montgomery as its capital? | Alabama | 
+U.S. Geography | What is the capital of Alaska? | Juneau | 
+U.S. Geography | Which U.S. state has Juneau as its capital? | Alaska | 
+U.S. Geography | What is the capital of Arizona? | Phoenix | 
+U.S. Geography | Which U.S. state has Phoenix as its capital? | Arizona | 
+U.S. Geography | What is the capital of Arkansas? | Little Rock | 
+U.S. Geography | Which U.S. state has Little Rock as its capital? | Arkansas | 
+U.S. Geography | What is the capital of California? | Sacramento | 
+U.S. Geography | Which U.S. state has Sacramento as its capital? | California | 
+U.S. Geography | What is the capital of Colorado? | Denver | 
+U.S. Geography | Which U.S. state has Denver as its capital? | Colorado | 
+U.S. Geography | What is the capital of Connecticut? | Hartford | 
+U.S. Geography | Which U.S. state has Hartford as its capital? | Connecticut | 
+U.S. Geography | What is the capital of Delaware? | Dover | 
+U.S. Geography | Which U.S. state has Dover as its capital? | Delaware | 
+U.S. Geography | What is the capital of Florida? | Tallahassee | 
+U.S. Geography | Which U.S. state has Tallahassee as its capital? | Florida | 
+U.S. Geography | What is the capital of Georgia? | Atlanta | 
+U.S. Geography | Which U.S. state has Atlanta as its capital? | Georgia | 
+U.S. Geography | What is the capital of Hawaii? | Honolulu | 
+U.S. Geography | Which U.S. state has Honolulu as its capital? | Hawaii | 
+U.S. Geography | What is the capital of Idaho? | Boise | 
+U.S. Geography | Which U.S. state has Boise as its capital? | Idaho | 
+U.S. Geography | What is the capital of Illinois? | Springfield | 
+U.S. Geography | Which U.S. state has Springfield as its capital? | Illinois | 
+U.S. Geography | What is the capital of Indiana? | Indianapolis | 
+U.S. Geography | Which U.S. state has Indianapolis as its capital? | Indiana | 
+U.S. Geography | What is the capital of Iowa? | Des Moines | 
+U.S. Geography | Which U.S. state has Des Moines as its capital? | Iowa | 
+U.S. Geography | What is the capital of Kansas? | Topeka | 
+U.S. Geography | Which U.S. state has Topeka as its capital? | Kansas | 
+U.S. Geography | What is the capital of Kentucky? | Frankfort | 
+U.S. Geography | Which U.S. state has Frankfort as its capital? | Kentucky | 
+U.S. Geography | What is the capital of Louisiana? | Baton Rouge | 
+U.S. Geography | Which U.S. state has Baton Rouge as its capital? | Louisiana | 
+U.S. Geography | What is the capital of Maine? | Augusta | 
+U.S. Geography | Which U.S. state has Augusta as its capital? | Maine | 
+U.S. Geography | What is the capital of Maryland? | Annapolis | 
+U.S. Geography | Which U.S. state has Annapolis as its capital? | Maryland | 
+U.S. Geography | What is the capital of Massachusetts? | Boston | 
+U.S. Geography | Which U.S. state has Boston as its capital? | Massachusetts | 
+U.S. Geography | What is the capital of Michigan? | Lansing | 
+U.S. Geography | Which U.S. state has Lansing as its capital? | Michigan | 
+U.S. Geography | What is the capital of Minnesota? | Saint Paul | 
+U.S. Geography | Which U.S. state has Saint Paul as its capital? | Minnesota | 
+U.S. Geography | What is the capital of Mississippi? | Jackson | 
+U.S. Geography | Which U.S. state has Jackson as its capital? | Mississippi | 
+U.S. Geography | What is the capital of Missouri? | Jefferson City | 
+U.S. Geography | Which U.S. state has Jefferson City as its capital? | Missouri | 
+U.S. Geography | What is the capital of Montana? | Helena | 
+U.S. Geography | Which U.S. state has Helena as its capital? | Montana | 
+U.S. Geography | What is the capital of Nebraska? | Lincoln | 
+U.S. Geography | Which U.S. state has Lincoln as its capital? | Nebraska | 
+U.S. Geography | What is the capital of Nevada? | Carson City | 
+U.S. Geography | Which U.S. state has Carson City as its capital? | Nevada | 
+U.S. Geography | What is the capital of New Hampshire? | Concord | 
+U.S. Geography | Which U.S. state has Concord as its capital? | New Hampshire | 
+U.S. Geography | What is the capital of New Jersey? | Trenton | 
+U.S. Geography | Which U.S. state has Trenton as its capital? | New Jersey | 
+U.S. Geography | What is the capital of New Mexico? | Santa Fe | 
+U.S. Geography | Which U.S. state has Santa Fe as its capital? | New Mexico | 
+U.S. Geography | What is the capital of New York? | Albany | 
+U.S. Geography | Which U.S. state has Albany as its capital? | New York | 
+U.S. Geography | What is the capital of North Carolina? | Raleigh | 
+U.S. Geography | Which U.S. state has Raleigh as its capital? | North Carolina | 
+U.S. Geography | What is the capital of North Dakota? | Bismarck | 
+U.S. Geography | Which U.S. state has Bismarck as its capital? | North Dakota | 
+U.S. Geography | What is the capital of Ohio? | Columbus | 
+U.S. Geography | Which U.S. state has Columbus as its capital? | Ohio | 
+U.S. Geography | What is the capital of Oklahoma? | Oklahoma City | 
+U.S. Geography | Which U.S. state has Oklahoma City as its capital? | Oklahoma | 
+U.S. Geography | What is the capital of Oregon? | Salem | 
+U.S. Geography | Which U.S. state has Salem as its capital? | Oregon | 
+U.S. Geography | What is the capital of Pennsylvania? | Harrisburg | 
+U.S. Geography | Which U.S. state has Harrisburg as its capital? | Pennsylvania | 
+U.S. Geography | What is the capital of Rhode Island? | Providence | 
+U.S. Geography | Which U.S. state has Providence as its capital? | Rhode Island | 
+U.S. Geography | What is the capital of South Carolina? | Columbia | 
+U.S. Geography | Which U.S. state has Columbia as its capital? | South Carolina | 
+U.S. Geography | What is the capital of South Dakota? | Pierre | 
+U.S. Geography | Which U.S. state has Pierre as its capital? | South Dakota | 
+U.S. Geography | What is the capital of Tennessee? | Nashville | 
+U.S. Geography | Which U.S. state has Nashville as its capital? | Tennessee | 
+U.S. Geography | What is the capital of Texas? | Austin | 
+U.S. Geography | Which U.S. state has Austin as its capital? | Texas | 
+U.S. Geography | What is the capital of Utah? | Salt Lake City | 
+U.S. Geography | Which U.S. state has Salt Lake City as its capital? | Utah | 
+U.S. Geography | What is the capital of Vermont? | Montpelier | 
+U.S. Geography | Which U.S. state has Montpelier as its capital? | Vermont | 
+U.S. Geography | What is the capital of Virginia? | Richmond | 
+U.S. Geography | Which U.S. state has Richmond as its capital? | Virginia | 
+U.S. Geography | What is the capital of Washington? | Olympia | 
+U.S. Geography | Which U.S. state has Olympia as its capital? | Washington | 
+U.S. Geography | What is the capital of West Virginia? | Charleston | 
+U.S. Geography | Which U.S. state has Charleston as its capital? | West Virginia | 
+U.S. Geography | What is the capital of Wisconsin? | Madison | 
+U.S. Geography | Which U.S. state has Madison as its capital? | Wisconsin | 
+U.S. Geography | What is the capital of Wyoming? | Cheyenne | 
+U.S. Geography | Which U.S. state has Cheyenne as its capital? | Wyoming | 
+Video Games | What is the name of the plumber who is Nintendo's famous mascot? | Mario | 
+Video Games | What is the name of Mario's brother? | Luigi | 
+Video Games | What is the name of the princess often rescued in the Super Mario series? | Princess Peach | 
+Video Games | What is the name of Link's homeland in many The Legend of Zelda games? | Hyrule | 
+Video Games | What is the name of the hero in The Legend of Zelda series? | Link | 
+Video Games | Which game features Creepers and block-based building? | Minecraft | 
+Video Games | What material is commonly used to craft a diamond pickaxe in Minecraft? | Diamonds | 
+Video Games | What is the name of the blocky dimension containing the Ender Dragon? | The End | 
+Video Games | Which company created the Pokémon franchise? | Game Freak, in collaboration with Nintendo and Creatures | 
+Video Games | What type is Pikachu? | Electric | 
+Video Games | What is the name of the first Pokémon in the National Pokédex? | Bulbasaur | 
+Video Games | Which game series features the city of Rapture? | BioShock | 
+Video Games | Which game series features Master Chief? | Halo | 
+Video Games | What is the name of the protagonist in the Portal games? | Chell | 
+Video Games | Which company developed the original Doom? | id Software | 
+Video Games | What is the name of the island in Animal Crossing: New Horizons where players settle? | A player-named island | 
+Video Games | Which battle royale game features the map Erangel? | PUBG: Battlegrounds | 
+Video Games | What is the name of the organization in the Assassin's Creed series that opposes the Assassins? | The Templars | 
+Video Games | Which game series features the continent of Tamriel? | The Elder Scrolls | 
+Video Games | What is the name of the capital city in The Elder Scrolls V: Skyrim? | There is no single capital; Solitude is the capital of Haafingar and seat of the High King | 
+Video Games | Which game features a character named Kratos? | God of War | 
+Video Games | Which studio created The Witcher video game series? | CD Projekt Red | 
+Video Games | What is the name of the main character in the Metroid series? | Samus Aran | 
+Video Games | Which game franchise features the fictional sport Rocket League? | Rocket League is its own game | 
+Video Games | Which game series features the phrase 'War. War never changes.'? | Fallout | 
+Video Games | Which game series includes the city of Liberty City? | Grand Theft Auto | 
+Video Games | What is the name of the blue hedgehog mascot of Sega? | Sonic the Hedgehog | 
+Video Games | Which game series features the character Lara Croft? | Tomb Raider | 
+Video Games | Which game features a companion cube and the Aperture Science facility? | Portal | 
+Video Games | What is the name of the main kingdom in Final Fantasy XV? | Lucis | 
+Video Games | Which multiplayer shooter features agents and the map Bind? | VALORANT | 
+Video Games | Which tactical shooter features operators such as Sledge and Thatcher? | Tom Clancy's Rainbow Six Siege | 
+Video Games | Which game series features the character Geralt of Rivia? | The Witcher | 
+Video Games | Which farming game features Pelican Town? | Stardew Valley | 
+Video Games | What is the name of the main character in Hollow Knight? | The Knight | 
+Video Games | Which game series features the fictional region of Johto? | Pokémon | 
+Video Games | Which game features a battle bus and building mechanics? | Fortnite | 
+Video Games | Which company develops the Call of Duty series alongside multiple partner studios? | Activision and its partner studios | 
+Video Games | Which game features a haunted mansion and the character Luigi as the protagonist? | Luigi's Mansion | 
+Video Games | What is the name of the AI companion in Portal 2? | GLaDOS | 
+Words & Language | What is a word that has the opposite meaning of another word called? | An antonym | 
+Words & Language | What is a word with the same or nearly the same meaning as another called? | A synonym | 
+Words & Language | What is a word that imitates a sound, such as 'buzz,' called? | Onomatopoeia | 
+Words & Language | What is the term for a word or phrase that reads the same backward and forward? | A palindrome | 
+Words & Language | What punctuation mark ends a direct question? | A question mark | 
+Words & Language | What is the plural of 'cactus' commonly accepted in English? | Cacti or cactuses | 
+Words & Language | What is the past tense of 'go'? | Went | 
+Words & Language | What part of speech names a person, place, thing, or idea? | A noun | 
+Words & Language | What part of speech describes an action or state of being? | A verb | 
+Words & Language | What part of speech modifies a noun? | An adjective | 
+Words & Language | What part of speech often modifies a verb, adjective, or another adverb? | An adverb | 
+Words & Language | What is the study of word origins called? | Etymology | 
+Words & Language | What is a group of words containing a subject and predicate called? | A clause | 
+Words & Language | What is a comparison using 'like' or 'as' called? | A simile | 
+Words & Language | What is a direct comparison that says one thing is another called? | A metaphor | 
+Words & Language | What is deliberate exaggeration for effect called? | Hyperbole | 
+Words & Language | What is the repetition of initial consonant sounds called? | Alliteration | 
+Words & Language | What is the language family that includes Spanish, French, and Italian? | Romance languages | 
+Words & Language | What language is primarily spoken in Brazil? | Portuguese | 
+Words & Language | What language is primarily spoken in Iran? | Persian (Farsi) | 
+Words & Language | What is the official language of Japan? | Japanese | 
+Words & Language | What is the most widely spoken language in Argentina? | Spanish | 
+Words & Language | What is the term for two words that sound alike but have different meanings? | Homophones | 
+Words & Language | What is the term for a shortened form such as 'can't'? | A contraction | 
+Words & Language | What is the term for a word formed from the initial letters of a phrase, such as NASA? | An acronym | 
+World Geography | What is the capital of Afghanistan? | Kabul | 
+World Geography | Kabul is the capital of which country? | Afghanistan | 
+World Geography | What is the capital of Albania? | Tirana | 
+World Geography | Tirana is the capital of which country? | Albania | 
+World Geography | What is the capital of Algeria? | Algiers | 
+World Geography | Algiers is the capital of which country? | Algeria | 
+World Geography | What is the capital of Andorra? | Andorra la Vella | 
+World Geography | Andorra la Vella is the capital of which country? | Andorra | 
+World Geography | What is the capital of Angola? | Luanda | 
+World Geography | Luanda is the capital of which country? | Angola | 
+World Geography | What is the capital of Argentina? | Buenos Aires | 
+World Geography | Buenos Aires is the capital of which country? | Argentina | 
+World Geography | What is the capital of Armenia? | Yerevan | 
+World Geography | Yerevan is the capital of which country? | Armenia | 
+World Geography | What is the capital of Australia? | Canberra | 
+World Geography | Canberra is the capital of which country? | Australia | 
+World Geography | What is the capital of Austria? | Vienna | 
+World Geography | Vienna is the capital of which country? | Austria | 
+World Geography | What is the capital of Azerbaijan? | Baku | 
+World Geography | Baku is the capital of which country? | Azerbaijan | 
+World Geography | What is the capital of Bahamas? | Nassau | 
+World Geography | Nassau is the capital of which country? | Bahamas | 
+World Geography | What is the capital of Bahrain? | Manama | 
+World Geography | Manama is the capital of which country? | Bahrain | 
+World Geography | What is the capital of Bangladesh? | Dhaka | 
+World Geography | Dhaka is the capital of which country? | Bangladesh | 
+World Geography | What is the capital of Barbados? | Bridgetown | 
+World Geography | Bridgetown is the capital of which country? | Barbados | 
+World Geography | What is the capital of Belarus? | Minsk | 
+World Geography | Minsk is the capital of which country? | Belarus | 
+World Geography | What is the capital of Belgium? | Brussels | 
+World Geography | Brussels is the capital of which country? | Belgium | 
+World Geography | What is the capital of Belize? | Belmopan | 
+World Geography | Belmopan is the capital of which country? | Belize | 
+World Geography | What is the capital of Benin? | Porto-Novo | 
+World Geography | Porto-Novo is the capital of which country? | Benin | 
+World Geography | What is the capital of Bhutan? | Thimphu | 
+World Geography | Thimphu is the capital of which country? | Bhutan | 
+World Geography | What is the capital of Bolivia? | Sucre | 
+World Geography | Sucre is the capital of which country? | Bolivia | 
+World Geography | What is the capital of Bosnia and Herzegovina? | Sarajevo | 
+World Geography | Sarajevo is the capital of which country? | Bosnia and Herzegovina | 
+World Geography | What is the capital of Botswana? | Gaborone | 
+World Geography | Gaborone is the capital of which country? | Botswana | 
+World Geography | What is the capital of Brazil? | Brasília | 
+World Geography | Brasília is the capital of which country? | Brazil | 
+World Geography | What is the capital of Brunei? | Bandar Seri Begawan | 
+World Geography | Bandar Seri Begawan is the capital of which country? | Brunei | 
+World Geography | What is the capital of Bulgaria? | Sofia | 
+World Geography | Sofia is the capital of which country? | Bulgaria | 
+World Geography | What is the capital of Burkina Faso? | Ouagadougou | 
+World Geography | Ouagadougou is the capital of which country? | Burkina Faso | 
+World Geography | What is the capital of Cambodia? | Phnom Penh | 
+World Geography | Phnom Penh is the capital of which country? | Cambodia | 
+World Geography | What is the capital of Cameroon? | Yaoundé | 
+World Geography | Yaoundé is the capital of which country? | Cameroon | 
+World Geography | What is the capital of Canada? | Ottawa | 
+World Geography | Ottawa is the capital of which country? | Canada | 
+World Geography | What is the capital of Chile? | Santiago | 
+World Geography | Santiago is the capital of which country? | Chile | 
+World Geography | What is the capital of China? | Beijing | 
+World Geography | Beijing is the capital of which country? | China | 
+World Geography | What is the capital of Colombia? | Bogotá | 
+World Geography | Bogotá is the capital of which country? | Colombia | 
+World Geography | What is the capital of Costa Rica? | San José | 
+World Geography | San José is the capital of which country? | Costa Rica | 
+World Geography | What is the capital of Croatia? | Zagreb | 
+World Geography | Zagreb is the capital of which country? | Croatia | 
+World Geography | What is the capital of Cuba? | Havana | 
+World Geography | Havana is the capital of which country? | Cuba | 
+World Geography | What is the capital of Cyprus? | Nicosia | 
+World Geography | Nicosia is the capital of which country? | Cyprus | 
+World Geography | What is the capital of Czechia? | Prague | 
+World Geography | Prague is the capital of which country? | Czechia | 
+World Geography | What is the capital of Denmark? | Copenhagen | 
+World Geography | Copenhagen is the capital of which country? | Denmark | 
+World Geography | What is the capital of Dominican Republic? | Santo Domingo | 
+World Geography | Santo Domingo is the capital of which country? | Dominican Republic | 
+World Geography | What is the capital of Ecuador? | Quito | 
+World Geography | Quito is the capital of which country? | Ecuador | 
+World Geography | What is the capital of Egypt? | Cairo | 
+World Geography | Cairo is the capital of which country? | Egypt | 
+World Geography | What is the capital of El Salvador? | San Salvador | 
+World Geography | San Salvador is the capital of which country? | El Salvador | 
+World Geography | What is the capital of Estonia? | Tallinn | 
+World Geography | Tallinn is the capital of which country? | Estonia | 
+World Geography | What is the capital of Ethiopia? | Addis Ababa | 
+World Geography | Addis Ababa is the capital of which country? | Ethiopia | 
+World Geography | What is the capital of Fiji? | Suva | 
+World Geography | Suva is the capital of which country? | Fiji | 
+World Geography | What is the capital of Finland? | Helsinki | 
+World Geography | Helsinki is the capital of which country? | Finland | 
+World Geography | What is the capital of France? | Paris | 
+World Geography | Paris is the capital of which country? | France | 
+World Geography | Tbilisi is the capital of which country? | Georgia | 
+World Geography | What is the capital of Germany? | Berlin | 
+World Geography | Berlin is the capital of which country? | Germany | 
+World Geography | What is the capital of Ghana? | Accra | 
+World Geography | Accra is the capital of which country? | Ghana | 
+World Geography | What is the capital of Greece? | Athens | 
+World Geography | Athens is the capital of which country? | Greece | 
+World Geography | What is the capital of Guatemala? | Guatemala City | 
+World Geography | Guatemala City is the capital of which country? | Guatemala | 
+World Geography | What is the capital of Haiti? | Port-au-Prince | 
+World Geography | Port-au-Prince is the capital of which country? | Haiti | 
+World Geography | What is the capital of Honduras? | Tegucigalpa | 
+World Geography | Tegucigalpa is the capital of which country? | Honduras | 
+World Geography | What is the capital of Hungary? | Budapest | 
+World Geography | Budapest is the capital of which country? | Hungary | 
+World Geography | What is the capital of Iceland? | Reykjavík | 
+World Geography | Reykjavík is the capital of which country? | Iceland | 
+World Geography | What is the capital of India? | New Delhi | 
+World Geography | New Delhi is the capital of which country? | India | 
+World Geography | What is the capital of Indonesia? | Jakarta | 
+World Geography | Jakarta is the capital of which country? | Indonesia | 
+World Geography | What is the capital of Iran? | Tehran | 
+World Geography | Tehran is the capital of which country? | Iran | 
+World Geography | What is the capital of Iraq? | Baghdad | 
+World Geography | Baghdad is the capital of which country? | Iraq | 
+World Geography | What is the capital of Ireland? | Dublin | 
+World Geography | Dublin is the capital of which country? | Ireland | 
+World Geography | What is the capital of Israel? | Jerusalem | 
+World Geography | Jerusalem is the capital of which country? | Israel | 
+World Geography | What is the capital of Italy? | Rome | 
+World Geography | Rome is the capital of which country? | Italy | 
+World Geography | What is the capital of Jamaica? | Kingston | 
+World Geography | Kingston is the capital of which country? | Jamaica | 
+World Geography | What is the capital of Japan? | Tokyo | 
+World Geography | Tokyo is the capital of which country? | Japan | 
+World Geography | What is the capital of Jordan? | Amman | 
+World Geography | Amman is the capital of which country? | Jordan | 
+World Geography | What is the capital of Kazakhstan? | Astana | 
+World Geography | Astana is the capital of which country? | Kazakhstan | 
+World Geography | What is the capital of Kenya? | Nairobi | 
+World Geography | Nairobi is the capital of which country? | Kenya | 
+World Geography | What is the capital of Kuwait? | Kuwait City | 
+World Geography | Kuwait City is the capital of which country? | Kuwait | 
+World Geography | What is the capital of Laos? | Vientiane | 
+World Geography | Vientiane is the capital of which country? | Laos | 
+World Geography | What is the capital of Latvia? | Riga | 
+World Geography | Riga is the capital of which country? | Latvia | 
+World Geography | What is the capital of Lebanon? | Beirut | 
+World Geography | Beirut is the capital of which country? | Lebanon | 
+World Geography | What is the capital of Lithuania? | Vilnius | 
+World Geography | Vilnius is the capital of which country? | Lithuania | 
+World Geography | What is the capital of Luxembourg? | Luxembourg | 
+World Geography | Luxembourg is the capital of which country? | Luxembourg | 
+World Geography | What is the capital of Madagascar? | Antananarivo | 
+World Geography | Antananarivo is the capital of which country? | Madagascar | 
+World Geography | What is the capital of Malaysia? | Kuala Lumpur | 
+World Geography | Kuala Lumpur is the capital of which country? | Malaysia | 
+World Geography | What is the capital of Maldives? | Malé | 
+World Geography | Malé is the capital of which country? | Maldives | 
+World Geography | What is the capital of Mali? | Bamako | 
+World Geography | Bamako is the capital of which country? | Mali | 
+World Geography | What is the capital of Malta? | Valletta | 
+World Geography | Valletta is the capital of which country? | Malta | 
+World Geography | What is the capital of Mexico? | Mexico City | 
+World Geography | Mexico City is the capital of which country? | Mexico | 
+World Geography | What is the capital of Moldova? | Chișinău | 
+World Geography | Chișinău is the capital of which country? | Moldova | 
+World Geography | What is the capital of Mongolia? | Ulaanbaatar | 
+World Geography | Ulaanbaatar is the capital of which country? | Mongolia | 
+World Geography | What is the capital of Montenegro? | Podgorica | 
+World Geography | Podgorica is the capital of which country? | Montenegro | 
+World Geography | What is the capital of Morocco? | Rabat | 
+World Geography | Rabat is the capital of which country? | Morocco | 
+World Geography | What is the capital of Mozambique? | Maputo | 
+World Geography | Maputo is the capital of which country? | Mozambique | 
+World Geography | What is the capital of Myanmar? | Naypyidaw | 
+World Geography | Naypyidaw is the capital of which country? | Myanmar | 
+World Geography | What is the capital of Namibia? | Windhoek | 
+World Geography | Windhoek is the capital of which country? | Namibia | 
+World Geography | What is the capital of Nepal? | Kathmandu | 
+World Geography | Kathmandu is the capital of which country? | Nepal | 
+World Geography | What is the capital of Netherlands? | Amsterdam | 
+World Geography | Amsterdam is the capital of which country? | Netherlands | 
+World Geography | What is the capital of New Zealand? | Wellington | 
+World Geography | Wellington is the capital of which country? | New Zealand | 
+World Geography | What is the capital of Nicaragua? | Managua | 
+World Geography | Managua is the capital of which country? | Nicaragua | 
+World Geography | What is the capital of Nigeria? | Abuja | 
+World Geography | Abuja is the capital of which country? | Nigeria | 
+World Geography | What is the capital of North Korea? | Pyongyang | 
+World Geography | Pyongyang is the capital of which country? | North Korea | 
+World Geography | What is the capital of North Macedonia? | Skopje | 
+World Geography | Skopje is the capital of which country? | North Macedonia | 
+World Geography | What is the capital of Norway? | Oslo | 
+World Geography | Oslo is the capital of which country? | Norway | 
+World Geography | What is the capital of Oman? | Muscat | 
+World Geography | Muscat is the capital of which country? | Oman | 
+World Geography | What is the capital of Pakistan? | Islamabad | 
+World Geography | Islamabad is the capital of which country? | Pakistan | 
+World Geography | What is the capital of Panama? | Panama City | 
+World Geography | Panama City is the capital of which country? | Panama | 
+World Geography | What is the capital of Paraguay? | Asunción | 
+World Geography | Asunción is the capital of which country? | Paraguay | 
+World Geography | What is the capital of Peru? | Lima | 
+World Geography | Lima is the capital of which country? | Peru | 
+World Geography | What is the capital of Philippines? | Manila | 
+World Geography | Manila is the capital of which country? | Philippines | 
+World Geography | What is the capital of Poland? | Warsaw | 
+World Geography | Warsaw is the capital of which country? | Poland | 
+World Geography | What is the capital of Portugal? | Lisbon | 
+World Geography | Lisbon is the capital of which country? | Portugal | 
+World Geography | What is the capital of Qatar? | Doha | 
+World Geography | Doha is the capital of which country? | Qatar | 
+World Geography | What is the capital of Romania? | Bucharest | 
+World Geography | Bucharest is the capital of which country? | Romania | 
+World Geography | What is the capital of Russia? | Moscow | 
+World Geography | Moscow is the capital of which country? | Russia | 
+World Geography | What is the capital of Rwanda? | Kigali | 
+World Geography | Kigali is the capital of which country? | Rwanda | 
+World Geography | What is the capital of Saudi Arabia? | Riyadh | 
+World Geography | Riyadh is the capital of which country? | Saudi Arabia | 
+World Geography | What is the capital of Senegal? | Dakar | 
+World Geography | Dakar is the capital of which country? | Senegal | 
+World Geography | What is the capital of Serbia? | Belgrade | 
+World Geography | Belgrade is the capital of which country? | Serbia | 
+World Geography | What is the capital of Singapore? | Singapore | 
+World Geography | Singapore is the capital of which country? | Singapore | 
+World Geography | What is the capital of Slovakia? | Bratislava | 
+World Geography | Bratislava is the capital of which country? | Slovakia | 
+World Geography | What is the capital of Slovenia? | Ljubljana | 
+World Geography | Ljubljana is the capital of which country? | Slovenia | 
+World Geography | What is the capital of Somalia? | Mogadishu | 
+World Geography | Mogadishu is the capital of which country? | Somalia | 
+World Geography | What is the capital of South Africa? | Pretoria | 
+World Geography | Pretoria is the capital of which country? | South Africa | 
+World Geography | What is the capital of South Korea? | Seoul | 
+World Geography | Seoul is the capital of which country? | South Korea | 
+World Geography | What is the capital of Spain? | Madrid | 
+World Geography | Madrid is the capital of which country? | Spain | 
+World Geography | What is the capital of Sri Lanka? | Sri Jayawardenepura Kotte | 
+World Geography | Sri Jayawardenepura Kotte is the capital of which country? | Sri Lanka | 
+World Geography | What is the capital of Sudan? | Khartoum | 
+World Geography | Khartoum is the capital of which country? | Sudan | 
+World Geography | What is the capital of Sweden? | Stockholm | 
+World Geography | Stockholm is the capital of which country? | Sweden | 
+World Geography | What is the capital of Switzerland? | Bern | 
+World Geography | Bern is the capital of which country? | Switzerland | 
+World Geography | What is the capital of Syria? | Damascus | 
+World Geography | Damascus is the capital of which country? | Syria | 
+World Geography | What is the capital of Taiwan? | Taipei | 
+World Geography | Taipei is the capital of which country? | Taiwan | 
+World Geography | What is the capital of Tanzania? | Dodoma | 
+World Geography | Dodoma is the capital of which country? | Tanzania | 
+World Geography | What is the capital of Thailand? | Bangkok | 
+World Geography | Bangkok is the capital of which country? | Thailand | 
+World Geography | What is the capital of Tunisia? | Tunis | 
+World Geography | Tunis is the capital of which country? | Tunisia | 
+World Geography | What is the capital of Türkiye? | Ankara | 
+World Geography | Ankara is the capital of which country? | Türkiye | 
+World Geography | What is the capital of Uganda? | Kampala | 
+World Geography | Kampala is the capital of which country? | Uganda | 
+World Geography | What is the capital of Ukraine? | Kyiv | 
+World Geography | Kyiv is the capital of which country? | Ukraine | 
+World Geography | What is the capital of United Arab Emirates? | Abu Dhabi | 
+World Geography | Abu Dhabi is the capital of which country? | United Arab Emirates | 
+World Geography | What is the capital of United Kingdom? | London | 
+World Geography | London is the capital of which country? | United Kingdom | 
+World Geography | What is the capital of United States? | Washington, D.C. | Washington DC; Washington, DC
+World Geography | Washington, D.C. is the capital of which country? | United States | 
+World Geography | What is the capital of Uruguay? | Montevideo | 
+World Geography | Montevideo is the capital of which country? | Uruguay | 
+World Geography | What is the capital of Uzbekistan? | Tashkent | 
+World Geography | Tashkent is the capital of which country? | Uzbekistan | 
+World Geography | What is the capital of Venezuela? | Caracas | 
+World Geography | Caracas is the capital of which country? | Venezuela | 
+World Geography | What is the capital of Vietnam? | Hanoi | 
+World Geography | Hanoi is the capital of which country? | Vietnam | 
+World Geography | What is the capital of Yemen? | Sana'a | 
+World Geography | Sana'a is the capital of which country? | Yemen | 
+World Geography | What is the capital of Zambia? | Lusaka | 
+World Geography | Lusaka is the capital of which country? | Zambia | 
+World Geography | What is the capital of Zimbabwe? | Harare | 
+World Geography | Harare is the capital of which country? | Zimbabwe | 
+World Geography | What is the world's largest ocean? | The Pacific Ocean | Pacific
+World Geography | What is the world's smallest ocean? | The Arctic Ocean | Arctic
+World Geography | What is the highest mountain above sea level? | Mount Everest | 
+World Geography | What is the longest river in South America? | The Amazon River | Amazon
+World Geography | Which desert covers much of northern Africa? | The Sahara | Sahara Desert
+World Geography | What is the largest hot desert in the world? | The Sahara | Sahara Desert
+World Geography | What is the largest island in the world that is not considered a continent? | Greenland | 
+World Geography | Which river flows through Egypt and into the Mediterranean Sea? | The Nile | Nile; Nile River
+World Geography | Which U.S. state contains the Grand Canyon? | Arizona | 
+World Geography | In which country is the Taj Mahal located? | India | 
+World Geography | In which city is the Eiffel Tower? | Paris | 
+World Geography | In which city is the Colosseum? | Rome | 
+World Geography | In which city is the Statue of Liberty located near? | New York City | 
+World Geography | In which country is Machu Picchu? | Peru | 
+World Geography | In which country is the Great Barrier Reef? | Australia | 
+World Geography | In which country is Mount Fuji? | Japan | 
+World Geography | Which sea separates Europe and Africa? | The Mediterranean Sea | 
+World Geography | What is the name of the line at 0 degrees latitude? | The Equator | 
+World Geography | What is the name of the line at 0 degrees longitude? | The Prime Meridian | 
+World Geography | What is the world's largest rainforest? | The Amazon rainforest | Amazon rainforest
+World Geography | Which continent contains the South Pole? | Antarctica | 
+World Geography | Which continent has the most countries? | Africa | 
+World Geography | What is the official currency of United States? | U.S. dollar | 
+World Geography | What is the official currency of Canada? | Canadian dollar | 
+World Geography | What is the official currency of Australia? | Australian dollar | 
+World Geography | What is the official currency of Japan? | yen | 
+World Geography | What is the official currency of China? | renminbi (yuan) | 
+World Geography | What is the official currency of India? | Indian rupee | 
+World Geography | What is the official currency of United Kingdom? | pound sterling | 
+World Geography | What is the official currency of Switzerland? | Swiss franc | 
+World Geography | What is the official currency of Mexico? | Mexican peso | 
+World Geography | What is the official currency of Brazil? | Brazilian real | 
+World Geography | What is the official currency of South Korea? | South Korean won | 
+World Geography | What is the official currency of South Africa? | rand | 
+World Geography | What is the official currency of Türkiye? | Turkish lira | 
+World Geography | What is the official currency of Russia? | Russian ruble | 
+World Geography | What is the official currency of Thailand? | baht | 
+World Geography | What is the official currency of Vietnam? | dong | 
+World Geography | What is the official currency of Saudi Arabia? | Saudi riyal | 
+World Geography | What is the official currency of Poland? | złoty | 
+World Geography | What is the official currency of Sweden? | Swedish krona | 
+World Geography | What is the official currency of Norway? | Norwegian krone | 
