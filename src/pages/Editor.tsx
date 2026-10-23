@@ -6,7 +6,8 @@ import { downloadText, exportGameJson, loadGame, saveGame } from '../store/stora
 import { isNative } from '../native';
 import { gameToCsv } from '../store/csv';
 import { gameToTxt } from '../store/txt';
-import { CATEGORY_COLORS, uid, type Game, type Question } from '../types';
+import { CATEGORY_COLORS, MAX_CATEGORIES, MIN_CATEGORIES, uid, type FinalMode, type Game, type Question } from '../types';
+import { topValue } from '../engine/game';
 
 type Sel = { c: number; q: number } | null;
 type Save = 'saved' | 'saving' | 'unsaved' | 'error';
@@ -145,6 +146,7 @@ export default function Editor() {
       {picker && (
         <BankPicker
           rows={rows}
+          canAddCategory={game.categories.length < MAX_CATEGORIES}
           hasCell={!!q}
           initialBankId={params.get('bank') ?? undefined}
           onClose={() => { setPicker(false); if (params.has('bank')) setParams({}, { replace: true }); }}
@@ -177,9 +179,14 @@ export default function Editor() {
         <button className="btn small" onClick={() => downloadText(`${game.title.replace(/[^\w-]+/g, '_')}.txt`, gameToTxt(game), 'text/plain')}>Export text</button>
         {!isNative() && <Link className="btn small" to={`/print/${game.id}`} target="_blank">Print sheets</Link>}
         <button className="btn small" onClick={() => downloadText(`${game.title.replace(/[^\w-]+/g, '_')}.json`, exportGameJson(game))}>Export JSON</button>
-        <Link className="btn primary" to={`/host/${game.id}`} onClick={() => void flush()}>Host this game</Link>
+        {game.categories.length >= MIN_CATEGORIES && game.categories.length <= MAX_CATEGORIES
+          ? <Link className="btn primary" to={`/host/${game.id}`} onClick={() => void flush()}>Host this game</Link>
+          : <button className="btn primary" disabled title={`Needs ${MIN_CATEGORIES}-${MAX_CATEGORIES} categories`}>Host this game</button>}
       </div>
 
+      {(game.categories.length < MIN_CATEGORIES || game.categories.length > MAX_CATEGORIES) && (
+        <p className="err" role="alert">A game needs {MIN_CATEGORIES} to {MAX_CATEGORIES} categories; this one has {game.categories.length}. {game.categories.length < MIN_CATEGORIES ? 'Add more with + Category.' : 'Delete some.'}</p>
+      )}
       {problems > 0 && <p className="err" role="alert">{problems} clue{problems === 1 ? '' : 's'} missing text or an answer (dashed red). They can still be hosted but will be blank.</p>}
 
       <div className="editor">
@@ -193,8 +200,8 @@ export default function Editor() {
                   <input type="color" aria-label="Category colour" value={c.color} onChange={(e) => commit((g) => { g.categories[ci].color = e.target.value; })} style={{ width: 28, height: 24, padding: 0, border: 0, background: 'none' }} />
                   <button className="btn small" aria-label="Move left" disabled={ci === 0} onClick={() => commit((g) => { g.categories.splice(ci - 1, 0, g.categories.splice(ci, 1)[0]); setSel(null); })}>&larr;</button>
                   <button className="btn small" aria-label="Move right" disabled={ci === game.categories.length - 1} onClick={() => commit((g) => { g.categories.splice(ci + 1, 0, g.categories.splice(ci, 1)[0]); setSel(null); })}>&rarr;</button>
-                  <button className="btn small" aria-label="Duplicate category" onClick={() => commit((g) => { const d = clone(g.categories[ci]); d.id = uid(); d.questions.forEach((x) => (x.id = uid())); g.categories.splice(ci + 1, 0, d); })}>&#10064;</button>
-                  <button className="btn small bad" aria-label="Delete category" disabled={game.categories.length <= 1} onClick={async () => { if (await ask(`Delete category "${c.name}"?`)) { commit((g) => { g.categories.splice(ci, 1); }); setSel(null); } }}>&times;</button>
+                  <button className="btn small" aria-label="Duplicate category" disabled={game.categories.length >= MAX_CATEGORIES} onClick={() => commit((g) => { const d = clone(g.categories[ci]); d.id = uid(); d.questions.forEach((x) => (x.id = uid())); g.categories.splice(ci + 1, 0, d); })}>&#10064;</button>
+                  <button className="btn small bad" aria-label="Delete category" disabled={game.categories.length <= MIN_CATEGORIES} onClick={async () => { if (await ask(`Delete category "${c.name}"?`)) { commit((g) => { g.categories.splice(ci, 1); }); setSel(null); } }}>&times;</button>
                 </div>
               </div>
             ))}
@@ -216,8 +223,9 @@ export default function Editor() {
             ])}
           </div>
           <div className="row" style={{ marginTop: 12 }}>
-            <button className="btn small" disabled={game.categories.length >= 10} onClick={() => commit((g) => { g.categories.push({ id: uid(), name: `Category ${g.categories.length + 1}`, color: CATEGORY_COLORS[g.categories.length % 8], questions: Array.from({ length: rows }, (_, i) => newQ(g.categories[0]?.questions[i]?.value ?? (i + 1) * 200)) }); })}>+ Category</button>
-            <button className="btn small" disabled={game.categories.length >= 10} onClick={() => setPicker(true)}>+ From question bank</button>
+            <button className="btn small" disabled={game.categories.length >= MAX_CATEGORIES} onClick={() => commit((g) => { g.categories.push({ id: uid(), name: `Category ${g.categories.length + 1}`, color: CATEGORY_COLORS[g.categories.length % 8], questions: Array.from({ length: rows }, (_, i) => newQ(g.categories[0]?.questions[i]?.value ?? (i + 1) * 200)) }); })}>+ Category</button>
+            <button className="btn small" disabled={game.categories.length >= MAX_CATEGORIES} onClick={() => setPicker(true)}>+ From question bank</button>
+            <span className="muted">{game.categories.length} of {MIN_CATEGORIES}&ndash;{MAX_CATEGORIES} categories</span>
             <button className="btn small" disabled={rows >= 10} onClick={() => commit((g) => { const base = (g.categories[0]?.questions[rows - 1]?.value ?? 0) + 200; g.categories.forEach((c) => c.questions.push(newQ(base))); })}>+ Row</button>
             <button className="btn small bad" disabled={rows <= 1} onClick={async () => { if (await ask('Delete the last row of clues in every category?')) { commit((g) => g.categories.forEach((c) => c.questions.pop())); setSel(null); } }}>&minus; Row</button>
           </div>
@@ -228,14 +236,28 @@ export default function Editor() {
           </label>
           {game.final && (
             <>
+              <label htmlFor="fmode">Final style</label>
+              <select id="fmode" value={game.final.mode ?? 'wager'} onChange={(e) => commit((g) => { g.final!.mode = e.target.value as FinalMode; })}>
+                <option value="wager">Wager final: everyone wagers, types an answer, answers revealed one by one</option>
+                <option value="typed">Everyone types an answer (no wagers), revealed one by one</option>
+                <option value="normal">Normal question: buzzer like any other clue</option>
+              </select>
+              {(game.final.mode ?? 'wager') !== 'wager' && (
+                <>
+                  <label htmlFor="fval">Points for the final {(game.final.mode ?? 'wager') === 'normal' ? 'question' : 'answer'} (right = +, wrong = &minus; if wrong answers cost points)</label>
+                  <input id="fval" type="number" min={0} step={100} value={game.final.value ?? topValue(game)} style={{ width: 120 }} onChange={(e) => commit((g) => { g.final!.value = Math.max(0, Math.round(Number(e.target.value) || 0)); }, { key: 'fval' })} />
+                </>
+              )}
               <label htmlFor="fcat">Final category</label>
               <input id="fcat" type="text" value={game.final.category} maxLength={60} onChange={(e) => commit((g) => { g.final!.category = e.target.value; }, { key: 'fcat' })} />
               <label htmlFor="fclue">Final clue</label>
               <textarea id="fclue" value={game.final.clue} maxLength={1000} onChange={(e) => commit((g) => { g.final!.clue = e.target.value; }, { key: 'fclue' })} />
               <label htmlFor="fans">Final answer</label>
               <input id="fans" type="text" value={game.final.answer} maxLength={300} onChange={(e) => commit((g) => { g.final!.answer = e.target.value; }, { key: 'fans' })} />
+              {(game.final.mode ?? 'wager') !== 'normal' && (<>
               <label htmlFor="fsecs">Answer time in seconds (0 = host ends it manually)</label>
               <input id="fsecs" type="number" min={0} max={300} value={game.rules.finalSeconds ?? 30} style={{ width: 100 }} onChange={(e) => commit((g) => { g.rules.finalSeconds = Math.min(300, Math.max(0, Math.round(Number(e.target.value) || 0))); }, { key: 'fsecs' })} />
+              </>)}
               {(!game.final.clue.trim() || !game.final.answer.trim()) && <p className="err">Add a Final clue and answer, or the Final round can't be started.</p>}
               <label htmlFor="falts">Also accept (comma separated)</label>
               <input id="falts" type="text" value={game.final.alts.join(', ')} onChange={(e) => commit((g) => { g.final!.alts = e.target.value.split(',').map((x) => x.trim()).filter(Boolean); }, { key: 'falts' })} />

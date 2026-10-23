@@ -9,9 +9,10 @@ interface Row { key: string; cat: string; q: BankQuestion }
  * a whole category (a random clue per row), hand-picked clues as a new category,
  * or one clue into the cell that is selected on the board.
  */
-export default function BankPicker({ rows, hasCell, initialBankId, onClose, onAddCategory, onFillCell }: {
+export default function BankPicker({ rows, hasCell, canAddCategory, initialBankId, onClose, onAddCategory, onFillCell }: {
   rows: number;
   hasCell: boolean;
+  canAddCategory: boolean;
   initialBankId?: string;
   onClose: () => void;
   onAddCategory: (name: string, questions: BankQuestion[]) => void;
@@ -94,7 +95,7 @@ export default function BankPicker({ rows, hasCell, initialBankId, onClose, onAd
                 <div className="row" style={{ marginBottom: 6 }}>
                   <b className="grow">{term ? `Matches for “${search.trim()}”` : cat || 'Choose a category'}</b>
                   {!term && cat && (
-                    <button className="btn small" disabled={(bank?.categories.find((c) => c.name === cat)?.questions.length ?? 0) < 1} onClick={() => {
+                    <button className="btn small" disabled={!canAddCategory || (bank?.categories.find((c) => c.name === cat)?.questions.length ?? 0) < 1} onClick={() => {
                       const c = bank!.categories.find((x) => x.name === cat)!;
                       onAddCategory(c.name, drawClues(c, rows));
                       flash(`Added “${c.name}” with a random clue per row.`);
@@ -120,7 +121,7 @@ export default function BankPicker({ rows, hasCell, initialBankId, onClose, onAd
             <div className="row" style={{ marginTop: 10 }}>
               <b>{picked.length} picked</b>
               <input type="text" aria-label="New category name" placeholder={catOfPicks || 'Mixed'} value={name} maxLength={60} onChange={(e) => setName(e.target.value)} style={{ width: 180 }} />
-              <button className="btn primary" disabled={picked.length === 0 || picked.length > rows} onClick={() => {
+              <button className="btn primary" disabled={!canAddCategory || picked.length === 0 || picked.length > rows} onClick={() => {
                 onAddCategory(catName, picked.map((p) => p.q));
                 setPicked([]);
                 setName('');
@@ -135,6 +136,7 @@ export default function BankPicker({ rows, hasCell, initialBankId, onClose, onAd
             </div>
             <p className="muted" style={{ margin: '6px 0 0' }}>
               {picked.length > rows ? `The board has ${rows} rows, so a category holds at most ${rows} clues. Untick some.` : `Picked clues fill a category from the top row down (the board has ${rows} rows); missing rows stay blank. Tip: pick in easy-to-hard order.`}
+              {!canAddCategory && ' The board already has the maximum number of categories, so you can only fill cells.'}
               {!hasCell && ' To fill one cell, close this, click the cell on the board, then reopen.'}
             </p>
             {note && <p className="ok" role="status" style={{ margin: '6px 0 0' }}>{note}</p>}

@@ -42,10 +42,10 @@ function webPrefs() {
 
 function createMain() {
   main = new BrowserWindow({
-    width: 1440,
-    height: 900,
-    minWidth: 900,
-    minHeight: 600,
+    width: 1600,
+    height: 900, // 16:9, like the game stage
+    minWidth: 960,
+    minHeight: 540,
     backgroundColor: '#080d22',
     title: 'Quiz Show Studio',
     autoHideMenuBar: true,

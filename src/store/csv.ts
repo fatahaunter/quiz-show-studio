@@ -89,7 +89,7 @@ export function gameFromCsv(text: string, title: string): CsvResult {
     seen.add(key);
     let c = byCat.get(cat.toLowerCase());
     if (!c) {
-      if (byCat.size >= 10) return void errors.push(`Row ${line}: more than 10 categories.`);
+      if (byCat.size >= 8) return void errors.push(`Row ${line}: more than 8 categories.`);
       c = { id: uid(), name: cat.slice(0, 60), color: CATEGORY_COLORS[byCat.size % 8], questions: [] };
       byCat.set(cat.toLowerCase(), c);
     }

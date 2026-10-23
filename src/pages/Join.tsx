@@ -4,7 +4,9 @@ import { getBroker, parseBroker } from '../net/broker';
 import type { PlayerView } from '../engine/game';
 import { PlayerLink, type LinkStatus } from '../net/player';
 import { BUZZ_PENALTY_MS, normalizeCode } from '../net/protocol';
+import Avatar from '../components/Avatar';
 import Countdown from '../components/Countdown';
+import { EMOJI_AVATARS, emojiAvatar, fileToAvatar, isAvatar } from '../avatar';
 import FinalTimer from '../components/FinalTimer';
 import { sfx, unlockAudio } from '../sound';
 import { PLAYER_COLORS, uid } from '../types';
@@ -29,6 +31,8 @@ export default function Join() {
   const [code, setCode] = useState(normalizeCode(paramCode ?? ''));
   const [name, setName] = useState<string>(profile.name ?? '');
   const [color, setColor] = useState<string>(profile.color ?? PLAYER_COLORS[Math.floor(Math.random() * PLAYER_COLORS.length)]);
+  const [avatar, setAvatar] = useState<string | undefined>(isAvatar(profile.avatar) ? profile.avatar : undefined);
+  const [avatarErr, setAvatarErr] = useState('');
   const [joined, setJoined] = useState(false);
   const [error, setError] = useState('');
   const [status, setStatus] = useState<LinkStatus>('connecting');
@@ -47,11 +51,13 @@ export default function Join() {
   function connect() {
     if (code.length !== 5 || !name.trim()) return;
     unlockAudio();
-    try { localStorage.setItem(PROFILE_KEY, JSON.stringify({ name: name.trim(), color })); } catch { /* ignore */ }
+    try { localStorage.setItem(PROFILE_KEY, JSON.stringify({ name: name.trim(), color, avatar })); } catch { /* ignore */ }
+    // The buzzer is built for landscape. Fullscreen (needs this tap) lets Android browsers lock it that way.
+    try { void document.documentElement.requestFullscreen?.().then(() => (screen.orientation as any)?.lock?.('landscape')).catch(() => {}); } catch { /* not supported */ }
     setError('');
     setJoined(true);
     link.current?.stop();
-    const l = new PlayerLink(code, { token: token(), name: name.trim(), color }, {
+    const l = new PlayerLink(code, { token: token(), name: name.trim(), color, avatar }, {
       onView: (v) => {
         const p = viewRef.current;
         if (v.buzzer === 'armed' && p?.buzzer !== 'armed') { sfx.armed(); navigator.vibrate?.(60); }
@@ -102,15 +108,26 @@ export default function Join() {
   useEffect(() => { if (view?.buzzer !== 'armed') setSent(null); }, [view?.buzzer]);
 
   const fin = view?.phase === 'final' ? view.final : undefined;
+  const showRoom = !view || view.phase === 'lobby'; // the room code is only useful until the game starts
+  const hintRotate = <div className="rotate-hint" role="note">Turn your phone sideways for the best view.</div>;
+
   if (joined && fin) {
+    const typed = fin.mode === 'typed';
     return (
-      <div className="buzz-page" style={{ justifyContent: 'flex-start' }}>
-        <div className="pill"><span className={`dot${status === 'online' ? ' on' : ''}`} /> {status === 'online' ? 'Connected' : 'Reconnecting\u2026'}</div>
-        <h1>Final round</h1>
-        <div className="state">{fin.category}</div>
-        <div className="card" style={{ width: '100%', maxWidth: 480, textAlign: 'left' }}>
+      <div className="buzz-page final-page">
+        {hintRotate}
+        <div className="bp-left">
+          <div className="pill"><span className={`dot${status === 'online' ? ' on' : ''}`} /> {status === 'online' ? 'Connected' : 'Reconnecting…'}</div>
+          <h1>Final round</h1>
+          <div className="state">{fin.category}</div>
+          <Avatar name={name} color={color} src={avatar} size={64} />
+          <div className="muted">{view?.you.score} pts</div>
+        </div>
+        <div className="card bp-card">
           {!fin.eligible ? (
             <p>Final round is for players with a positive score. Watch the big screen!</p>
+          ) : fin.stage === 'wager' && typed ? (
+            <p style={{ fontSize: '1.3rem' }}>Get ready &mdash; everyone answers, worth {fin.value} points. The clue is coming up on the big screen.</p>
           ) : fin.stage === 'wager' ? (
             <>
               <label htmlFor="wg">Your wager (0&ndash;{fin.maxWager})</label>
@@ -125,31 +142,59 @@ export default function Join() {
               <label htmlFor="fa">Your answer</label>
               <input id="fa" type="text" maxLength={200} value={draft} onChange={(e) => setDraft(e.target.value)} />
               <button className="btn primary big" style={{ width: '100%', marginTop: 12 }} disabled={!draft.trim()} onClick={() => link.current?.answer(draft)}>Submit answer</button>
-              {fin.answer && <p className="ok" role="status">Submitted: {fin.answer}</p>}
+              {fin.answer && <p className="ok" role="status">Submitted: {fin.answer}. You can change it until time is up.</p>}
             </>
           ) : (
             <p>Answers are being revealed on the big screen.</p>
           )}
         </div>
-        <div className="muted">{view?.you.score} pts</div>
       </div>
     );
   }
 
   if (!joined) {
     return (
-      <div className="page" style={{ maxWidth: 460 }}>
+      <div className="page join-form" style={{ maxWidth: 760 }}>
         <h1>Join a game</h1>
         <div className="card">
-          <label htmlFor="code">Room code</label>
-          <input id="code" type="text" inputMode="text" autoCapitalize="characters" autoComplete="off" value={code} maxLength={5} onChange={(e) => setCode(normalizeCode(e.target.value))} style={{ fontSize: '2rem', letterSpacing: '0.3em', textAlign: 'center' }} />
-          <label htmlFor="name">Your name</label>
-          <input id="name" type="text" value={name} maxLength={20} onChange={(e) => setName(e.target.value)} autoComplete="nickname" />
-          <label>Pick a colour</label>
-          <div className="row" role="radiogroup" aria-label="Colour">
-            {PLAYER_COLORS.map((c) => (
-              <button key={c} role="radio" aria-checked={c === color} aria-label={c} onClick={() => setColor(c)} className="avatar" style={{ background: c, width: 44, height: 44, border: c === color ? '4px solid #fff' : '4px solid transparent', cursor: 'pointer' }}>{c === color ? name[0]?.toUpperCase() ?? '' : ''}</button>
-            ))}
+          <div className="join-cols">
+            <div>
+              <label htmlFor="code">Room code</label>
+              <input id="code" type="text" inputMode="text" autoCapitalize="characters" autoComplete="off" value={code} maxLength={5} onChange={(e) => setCode(normalizeCode(e.target.value))} style={{ fontSize: '2rem', letterSpacing: '0.3em', textAlign: 'center' }} />
+              <label htmlFor="name">Your name</label>
+              <input id="name" type="text" value={name} maxLength={20} onChange={(e) => setName(e.target.value)} autoComplete="nickname" />
+              <label>Pick a colour</label>
+              <div className="row" role="radiogroup" aria-label="Colour">
+                {PLAYER_COLORS.map((c) => (
+                  <button key={c} role="radio" aria-checked={c === color} aria-label={c} onClick={() => setColor(c)} className="avatar" style={{ background: c, width: 40, height: 40, border: c === color ? '4px solid #fff' : '4px solid transparent', cursor: 'pointer' }} />
+                ))}
+              </div>
+            </div>
+            <div>
+              <label>Profile picture</label>
+              <div className="row">
+                <Avatar name={name || '?'} color={color} src={avatar} size={84} />
+                <div className="grow">
+                  <label className="btn" style={{ display: 'inline-flex', margin: 0, cursor: 'pointer', color: 'var(--text)' }}>
+                    Choose photo
+                    <input type="file" accept="image/*" hidden aria-label="Choose a profile photo" onChange={async (e) => {
+                      const f = e.target.files?.[0];
+                      e.target.value = '';
+                      if (!f) return;
+                      try { setAvatarErr(''); setAvatar(await fileToAvatar(f)); } catch { setAvatarErr('Could not use that image. Try another.'); }
+                    }} />
+                  </label>{' '}
+                  {avatar && <button className="btn small" onClick={() => setAvatar(undefined)}>Remove</button>}
+                </div>
+              </div>
+              <div className="row" style={{ gap: 6, marginTop: 8 }} aria-label="Or pick an emoji">
+                {EMOJI_AVATARS.map((em) => (
+                  <button key={em} className="btn small" style={{ fontSize: '1.3rem', padding: '0 6px', minHeight: 38 }} aria-label={`Use ${em}`} onClick={() => { try { setAvatarErr(''); setAvatar(emojiAvatar(em, color)); } catch { setAvatarErr('Could not make that picture.'); } }}>{em}</button>
+                ))}
+              </div>
+              {avatarErr && <p className="err" role="alert">{avatarErr}</p>}
+              <p className="muted" style={{ margin: '8px 0 0' }}>Shown under your score on the big screen.</p>
+            </div>
           </div>
           {error && <p className="err" role="alert">{error}</p>}
           <div className="row" style={{ marginTop: 16 }}>
@@ -177,19 +222,25 @@ export default function Join() {
 
   return (
     <div className="buzz-page">
-      <div className="row" style={{ width: '100%', justifyContent: 'space-between' }}>
+      {mode === 'count' && (
+        <div className="cd-full" role="status" aria-label="Buzzers opening" onPointerDown={(e) => { e.preventDefault(); buzz(); }}>
+          <Countdown className="fill" />
+        </div>
+      )}
+      {hintRotate}
+      <div className="bp-top">
         <span className="pill"><span className={`dot${status === 'online' ? ' on' : ''}`} /> {status === 'online' ? 'Connected' : status === 'reconnecting' ? 'Reconnecting…' : status === 'failed' ? 'Disconnected' : 'Connecting…'}</span>
-        <span className="pill">Room {code}</span>
+        {showRoom && <span className="pill">Room {code}</span>}
       </div>
-      <div>
-        <div className="avatar" style={{ background: color, width: 72, height: 72, fontSize: '2rem', margin: '0 auto 6px' }}>{name[0]?.toUpperCase()}</div>
+      <div className="bp-left">
+        <Avatar name={name} color={color} src={avatar} size={88} className="me" />
         <div style={{ fontSize: '1.4rem', fontWeight: 800 }}>{name}</div>
-        <div className="muted" style={{ fontSize: '1.2rem' }}>{view ? `${view.you.score} pts` : ''}</div>
+        <div className="muted" style={{ fontSize: '1.4rem' }}>{view ? `${view.you.score} pts` : ''}</div>
       </div>
-      <button className={`buzzer ${mode === 'count' ? 'counting' : ''} ${mode === 'armed' ? 'armed' : mode === 'won' ? 'won' : mode === 'locked' || mode === 'cool' ? 'locked' : ''}`} disabled={mode === 'wait' || mode === 'done'} onPointerDown={(e) => { e.preventDefault(); buzz(); }} aria-label={label}>
-        {mode === 'count' ? <Countdown /> : label}
+      <button className={`buzzer ${mode === 'armed' ? 'armed' : mode === 'won' ? 'won' : mode === 'locked' || mode === 'cool' ? 'locked' : ''}`} disabled={mode === 'wait' || mode === 'done'} onPointerDown={(e) => { e.preventDefault(); buzz(); }} aria-label={label}>
+        {label}
       </button>
-      <div>
+      <div className="bp-right">
         <div role="status" style={{ fontSize: '1.1rem' }}>{hint}</div>
         {view && view.standings.length > 0 && (
           <div className="muted" style={{ marginTop: 6 }}>{view.standings.slice(0, 3).map((s, i) => `${i + 1}. ${s.name} ${s.score}`).join('  ·  ')}</div>

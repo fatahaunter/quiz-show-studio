@@ -9,14 +9,16 @@ import FinalPanel from '../components/FinalPanel';
 import Screen from '../components/Screen';
 import { useWakeLock } from '../wakelock';
 import { resultFromState, saveResult } from '../store/history';
-import { createState, totalQuestions, maxWager, playerView, publicView, questionAt, reduce, standings, type Action, type GameState } from '../engine/game';
+import Avatar from '../components/Avatar';
+import { clueCategory, clueOf, createState, finalMode, totalQuestions, maxWager, playerView, publicView, reduce, standings, type Action, type GameState } from '../engine/game';
 import { HostLink } from '../net/host';
 import { formatBroker, getBroker } from '../net/broker';
 import { publicBase } from '../net/site';
 import { COUNTDOWN_FROM, COUNTDOWN_STEP_MS, BUZZ_PENALTY_MS, makeRoomCode, PRESENT_CHANNEL, PUBLIC_KEY } from '../net/protocol';
 import { sfx, unlockAudio } from '../sound';
 import { clearSession, loadGame, loadSession, saveSession } from '../store/storage';
-import { PLAYER_COLORS, uid } from '../types';
+import { MAX_CATEGORIES, MIN_CATEGORIES, PLAYER_COLORS, uid } from '../types';
+import { Link } from 'react-router-dom';
 
 const MAX_PLAYERS = 20;
 
@@ -42,6 +44,7 @@ export default function Host() {
   const chan = useRef<BroadcastChannel | null>(null);
   const codeRef = useRef('');
   const gate = useRef(createBuzzGate(BUZZ_PENALTY_MS));
+  const joinInfo = useRef<{ code: string; url?: string; qr?: string } | undefined>(undefined);
   useWakeLock();
   lockedRef.current = locked;
   codeRef.current = code;
@@ -106,16 +109,19 @@ export default function Host() {
   useEffect(() => {
     if (!code) return;
     const l = new HostLink(code, {
-      onHello(token, name, color) {
+      onHello(token, name, color, avatar) {
         const s = st.current!;
         const known = tokens.current[token];
-        if (known && s.players.some((p) => p.id === known)) return { playerId: known };
+        if (known && s.players.some((p) => p.id === known)) {
+          if (avatar !== s.players.find((p) => p.id === known)?.avatar) dispatch({ t: 'setAvatar', id: known, avatar });
+          return { playerId: known };
+        }
         if (lockedRef.current) return { error: 'room-locked', message: 'The host has locked this room.' };
         if (s.players.length >= MAX_PLAYERS) return { error: 'room-full', message: 'This room is full.' };
         if (s.players.some((p) => p.name.toLowerCase() === name.toLowerCase())) return { error: 'name-taken', message: 'That name is taken — pick another.' };
         const id = uid();
         tokens.current[token] = id;
-        dispatch({ t: 'addPlayer', player: { id, name, color } });
+        dispatch({ t: 'addPlayer', player: { id, name, color, avatar } });
         return { playerId: id };
       },
       onBuzz: (pid, qid) => tryBuzz(pid, qid),
@@ -133,27 +139,6 @@ export default function Host() {
     return () => { l.stop(); link.current = null; };
   }, [code, dispatch, tryBuzz]);
 
-  // ---- fan-out on every state change: persistence, presentation window, phones ----
-  useEffect(() => {
-    if (!state || !code) return;
-    saveSession({ code, state, tokens: tokens.current, locked });
-    const pv = publicView(state);
-    try { localStorage.setItem(PUBLIC_KEY, JSON.stringify(pv)); } catch { /* too large; BroadcastChannel still works */ }
-    chan.current?.postMessage(pv);
-    for (const p of state.players) {
-      if (p.local) continue;
-      const v = playerView(state, p.id);
-      if (v) link.current?.send(p.id, v);
-    }
-  }, [state, code, locked, net]);
-
-  useEffect(() => {
-    const bc = new BroadcastChannel(PRESENT_CHANNEL);
-    chan.current = bc;
-    bc.onmessage = (e) => { if (e.data === 'hello' && st.current) bc.postMessage(publicView(st.current)); };
-    return () => bc.close();
-  }, []);
-
   // ---- QR ----
   const broker = getBroker();
   // The public web address of the app, so phones can open it. Inside the desktop/phone app the page origin is private (app://), so use the hosted site instead if one is set.
@@ -162,6 +147,28 @@ export default function Host() {
   useEffect(() => {
     if (joinUrl) QRCode.toDataURL(joinUrl, { margin: 1, width: 240 }).then(setQr).catch(() => setQr(''));
   }, [joinUrl]);
+  joinInfo.current = { code, url: joinUrl || undefined, qr: qr || undefined };
+
+  // ---- fan-out on every state change: persistence, presentation window, phones ----
+  useEffect(() => {
+    if (!state || !code) return;
+    saveSession({ code, state, tokens: tokens.current, locked });
+    const pv = publicView(state, joinInfo.current);
+    try { localStorage.setItem(PUBLIC_KEY, JSON.stringify(pv)); } catch { /* too large; BroadcastChannel still works */ }
+    chan.current?.postMessage(pv);
+    for (const p of state.players) {
+      if (p.local) continue;
+      const v = playerView(state, p.id);
+      if (v) link.current?.send(p.id, v);
+    }
+  }, [state, code, locked, net, qr, joinUrl]);
+
+  useEffect(() => {
+    const bc = new BroadcastChannel(PRESENT_CHANNEL);
+    chan.current = bc;
+    bc.onmessage = (e) => { if (e.data === 'hello' && st.current) bc.postMessage(publicView(st.current, joinInfo.current)); };
+    return () => bc.close();
+  }, []);
 
   // ---- 3-2-1: the buzzer really opens when the countdown ends ----
   const counting = state?.current?.buzzer === 'countdown';
@@ -209,11 +216,23 @@ export default function Host() {
   }, [dispatch, tryBuzz]);
 
   if (!state) return <div className="page muted">Loading&hellip;</div>;
+  const ncat = state.game.categories.length;
+  if (state.phase === 'lobby' && (ncat < MIN_CATEGORIES || ncat > MAX_CATEGORIES)) {
+    return (
+      <div className="page">
+        <div className="card">
+          <h2>This board can't be hosted yet</h2>
+          <p>A game needs {MIN_CATEGORIES} to {MAX_CATEGORIES} categories and this one has {ncat}.</p>
+          <Link className="btn primary" to={`/edit/${state.game.id}`}>Open the editor</Link>
+        </div>
+      </div>
+    );
+  }
 
   const c = state.current;
-  const q = c ? questionAt(state.game, c.cat, c.idx) : undefined;
+  const q = c ? clueOf(state, c) : undefined;
   const winner = state.players.find((p) => p.id === c?.winnerId);
-  const pv = publicView(state);
+  const pv = publicView(state, joinInfo.current);
   const chooser = state.players.find((p) => p.id === state.chooserId);
 
   function addLocal() {
@@ -233,7 +252,7 @@ export default function Host() {
   }
 
   return (
-    <div className="page">
+    <div className="page wide">
       {dialog}
       {!audioOn && (
         <div className="card row" style={{ marginBottom: 12 }}>
@@ -242,6 +261,7 @@ export default function Host() {
         </div>
       )}
 
+      {state.phase === 'lobby' ? (
       <div className="card row" style={{ marginBottom: 14 }}>
         <div>
           <div className="muted">Room code</div>
@@ -260,6 +280,16 @@ export default function Host() {
           </div>
         </div>
       </div>
+      ) : (
+        <div className="row" style={{ marginBottom: 12 }}>
+          <span className="pill"><span className={`dot${net === 'open' ? ' on' : ''}`} /> {net === 'open' ? 'Room online' : net === 'connecting' ? 'Connecting…' : `Connection problem (${netDetail || 'unknown'})`}</span>
+          <span className="grow" />
+          {!isNative() && <button className="btn small" onClick={() => window.open('#/present', 'qss-present', 'popup,width=1280,height=720')}>Open presentation window</button>}
+          <button className="btn small" onClick={() => setFullscreen(true)}>Show on this screen</button>
+          <button className="btn small" onClick={() => setLocked(!locked)}>{locked ? 'Unlock room' : 'Lock room'}</button>
+          <button className="btn small bad" onClick={newSession}>End session</button>
+        </div>
+      )}
 
       <div className="hostgrid">
         <div>
@@ -280,7 +310,7 @@ export default function Host() {
                 )}
               </div>
               <div style={{ fontSize: '0.8rem' }}>
-                <Screen v={{ ...pv, players: [] }} onPick={(cat, idx) => dispatch({ t: 'select', cat, idx })} />
+                <Screen embedded v={pv} onPick={(cat, idx) => dispatch({ t: 'select', cat, idx })} />
               </div>
             </div>
           )}
@@ -288,7 +318,7 @@ export default function Host() {
           {state.phase === 'clue' && c && q && (
             <div className="card">
               <div className="row">
-                <h2 className="grow" style={{ margin: 0 }}>{state.game.categories[c.cat].name} &middot; {q.value}{c.dd ? ' · DAILY DOUBLE' : ''}</h2>
+                <h2 className="grow" style={{ margin: 0 }}>{c.final ? `FINAL QUESTION · ${clueCategory(state, c)}` : clueCategory(state, c)} &middot; {q.value}{c.dd ? ' · DAILY DOUBLE' : ''}</h2>
                 <span className="pill">Buzzer: <b>{c.buzzer.toUpperCase()}</b></span>
               </div>
               <p style={{ fontSize: '1.3rem' }}>{q.clue || <i className="muted">(blank clue)</i>}</p>
@@ -358,7 +388,7 @@ export default function Host() {
           {state.players.length === 0 && <p className="muted">Nobody yet. Share the code, or add a local player below.</p>}
           {state.players.map((p) => (
             <div className="player-row" key={p.id}>
-              <span className="avatar" style={{ background: p.color }}>{p.name[0]?.toUpperCase()}</span>
+              <Avatar name={p.name} color={p.color} src={p.avatar} />
               <div className="grow">
                 <div><b>{p.name}</b> {p.local && <span className="pill">key {p.key}</span>} {state.chooserId === p.id && <span className="pill">control</span>}</div>
                 <div className="muted"><span className={`dot${p.connected ? ' on' : ''}`} /> {p.connected ? 'online' : 'offline'} &middot; {p.score}</div>

@@ -27,7 +27,12 @@ export interface Rules {
   finalSeconds?: number; // Final-round answer time; 0 = host ends it manually (default 30)
 }
 
+/** wager: classic (wager, type an answer, reveal one by one). typed: everyone types, no wager, flat value. normal: played like any clue with the buzzer. */
+export type FinalMode = 'wager' | 'typed' | 'normal';
+
 export interface FinalClue {
+  mode?: FinalMode; // default 'wager'
+  value?: number; // points for 'typed' and 'normal' (default: the top clue value)
   category: string;
   clue: string;
   answer: string;
@@ -52,6 +57,9 @@ export const DEFAULT_RULES: Rules = {
   buzzWindowSec: 0,
   finalSeconds: 30,
 };
+
+export const MIN_CATEGORIES = 4;
+export const MAX_CATEGORIES = 8;
 
 export const PLAYER_COLORS = ['#3B82F6', '#22D3EE', '#FFD166', '#34D399', '#FB7185', '#A78BFA', '#F97316', '#F472B6'];
 export const CATEGORY_COLORS = ['#3B82F6', '#22D3EE', '#FFD166', '#34D399', '#FB7185', '#A78BFA', '#F97316', '#F472B6'];

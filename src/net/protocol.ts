@@ -1,4 +1,5 @@
 import type { PlayerView } from '../engine/game';
+import { isAvatar } from '../avatar';
 
 export const PEER_PREFIX = 'qss-';
 // Unambiguous characters only (no 0/O, 1/I).
@@ -19,7 +20,7 @@ export const peerIdFor = (code: string) => PEER_PREFIX + code;
 
 /** Player -> host */
 export type ClientMsg =
-  | { k: 'hello'; token: string; name: string; color: string }
+  | { k: 'hello'; token: string; name: string; color: string; avatar?: string }
   | { k: 'buzz'; qid: string }
   | { k: 'wager'; amount: number }
   | { k: 'answer'; text: string };
@@ -40,7 +41,7 @@ export function parseClientMsg(raw: unknown): ClientMsg | null {
   if (m.k === 'hello' && typeof m.token === 'string' && typeof m.name === 'string' && typeof m.color === 'string') {
     const name = m.name.replace(/\s+/g, ' ').trim().slice(0, 20);
     if (!name || m.token.length < 8 || m.token.length > 64 || !/^#[0-9a-fA-F]{6}$/.test(m.color)) return null;
-    return { k: 'hello', token: m.token, name, color: m.color };
+    return { k: 'hello', token: m.token, name, color: m.color, avatar: isAvatar(m.avatar) ? m.avatar : undefined };
   }
   return null;
 }

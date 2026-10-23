@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import { buildGame, randomCategories, usable, type Bank } from '../store/bank';
-import type { Game } from '../types';
+import { MAX_CATEGORIES, MIN_CATEGORIES, type Game } from '../types';
 
-const MAX_CATS = 10;
+const MAX_CATS = MAX_CATEGORIES;
 
 /** Pick categories (or let chance decide) and generate a board from a question bank. */
 export default function BankBuilder({ bank, onCancel, onBuild }: { bank: Bank; onCancel: () => void; onBuild: (g: Game) => void }) {
@@ -38,8 +38,8 @@ export default function BankBuilder({ bank, onCancel, onBuild }: { bank: Bank; o
         </div>
 
         <div className="row" style={{ marginTop: 12 }}>
-          <b className="grow">{valid.length} of {MAX_CATS} categories chosen</b>
-          <label style={{ margin: 0 }}>Random <input type="number" min={1} max={MAX_CATS} value={count} style={{ width: 60 }} onChange={(e) => setCount(Math.min(MAX_CATS, Math.max(1, Number(e.target.value) || 1)))} /></label>
+          <b className="grow">{valid.length} chosen (pick {MIN_CATEGORIES} to {MAX_CATS})</b>
+          <label style={{ margin: 0 }}>Random <input type="number" min={MIN_CATEGORIES} max={MAX_CATS} value={count} style={{ width: 60 }} onChange={(e) => setCount(Math.min(MAX_CATS, Math.max(MIN_CATEGORIES, Number(e.target.value) || MIN_CATEGORIES)))} /></label>
           <button className="btn small" onClick={() => setPicked(randomCategories(bank, count, rows))}>Pick {count} at random</button>
         </div>
         <input type="text" aria-label="Filter categories" placeholder={`Filter ${pool.length} usable categories…`} value={filter} onChange={(e) => setFilter(e.target.value)} style={{ marginTop: 8 }} />
@@ -58,7 +58,7 @@ export default function BankBuilder({ bank, onCancel, onBuild }: { bank: Bank; o
         {err && <p className="err" role="alert">{err}</p>}
         <div className="row" style={{ justifyContent: 'flex-end' }}>
           <button className="btn" onClick={onCancel}>Cancel</button>
-          <button className="btn primary" disabled={valid.length === 0} onClick={build}>Build game</button>
+          <button className="btn primary" disabled={valid.length < MIN_CATEGORIES} onClick={build}>Build game</button>
         </div>
       </div>
     </div>

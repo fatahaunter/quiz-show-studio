@@ -16,6 +16,13 @@ See **docs/APPS.md**. Portable Windows folder: `npm run package:win` -> `release
 `dist/` uses relative asset paths and hash routing (`#/...`), so it works from the site root or any sub-folder.
 **HTTPS is required** on the live site (phones' WebRTC, clipboard, fullscreen and audio need a secure context).
 
+## Game setup
+
+- **Boards have 4 to 8 categories.** The editor, importers and bank builder enforce it.
+- **Final round styles** (Editor > Final round > Final style): *Wager final* (classic: wager, type an answer, revealed one by one), *Everyone types an answer* (no wagers, flat points, revealed one by one) or *Normal question* (buzzer like any clue).
+- **Profile pictures:** players pick a photo or emoji when joining; it shows beside their score along the bottom of the big screen.
+- **Layout:** the big screen is a fixed 16:9 stage; phones are laid out for landscape (the Android and iOS apps are locked to landscape). The room code and QR show only in the lobby.
+
 ## How it works
 
 - **Storage:** games live in the host browser's IndexedDB; preferences and the live session in localStorage. Export JSON to back up or move games between browsers. Clearing site data deletes games.

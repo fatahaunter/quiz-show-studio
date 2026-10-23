@@ -21,7 +21,7 @@ export class PlayerLink {
 
   constructor(
     private code: string,
-    private me: { token: string; name: string; color: string },
+    private me: { token: string; name: string; color: string; avatar?: string },
     private ev: PlayerLinkEvents,
     private broker: Broker | null = null,
   ) {}

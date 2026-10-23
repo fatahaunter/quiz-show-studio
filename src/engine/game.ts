@@ -1,4 +1,4 @@
-import type { Game, Question } from '../types';
+import type { FinalMode, Game, Question } from '../types';
 
 export type Phase = 'lobby' | 'board' | 'clue' | 'final' | 'finished';
 /** disabled: nobody can buzz. armed: host opened the window. awarded: a winner was picked. resolved: question over. */
@@ -8,6 +8,7 @@ export interface Player {
   id: string;
   name: string;
   color: string;
+  avatar?: string; // small data-URL profile picture chosen by the player
   score: number;
   connected: boolean;
   local?: boolean; // pass-and-play player driven from the host keyboard
@@ -33,11 +34,13 @@ export interface Current {
   lockedOut: string[];
   answerShown: boolean;
   dd: boolean;
+  final?: boolean; // the Final clue played as a normal buzzer question (cat = -1)
   wager?: number;
   buzzSeq: number; // incremented on every accepted buzz for deterministic ordering
 }
 
 export interface FinalState {
+  mode?: FinalMode;
   stage: 'wager' | 'clue' | 'reveal';
   deadline?: number; // epoch ms when answers close (host clock); set when the clue stage starts
   eligible: string[];
@@ -79,6 +82,7 @@ export type Action =
   | { t: 'close' }
   | { t: 'adjust'; playerId: string; delta: number; reason: string }
   | { t: 'setChooser'; id: string }
+  | { t: 'setAvatar'; id: string; avatar?: string }
   | { t: 'startFinal' }
   | { t: 'finalWager'; playerId: string; amount: number }
   | { t: 'finalAnswer'; playerId: string; text: string }
@@ -94,14 +98,28 @@ export function createState(game: Game): GameState {
 
 export const questionAt = (g: Game, cat: number, idx: number): Question | undefined => g.categories[cat]?.questions[idx];
 
+export const topValue = (g: Game) => Math.max(0, ...g.categories.flatMap((c) => c.questions.map((q) => q.value)));
+export const finalMode = (g: Game): FinalMode => g.final?.mode ?? 'wager';
+export const finalValue = (g: Game) => Math.max(0, Math.round(g.final?.value ?? topValue(g)));
+
+/** The clue being played, including the Final clue when it is played as a normal question. */
+export function clueOf(s: GameState, c: Current): Question | undefined {
+  if (c.final) {
+    const f = s.game.final;
+    return f && { id: c.qid, clue: f.clue, answer: f.answer, alts: f.alts, value: finalValue(s.game) };
+  }
+  return questionAt(s.game, c.cat, c.idx);
+}
+
+export const clueCategory = (s: GameState, c: Current) => (c.final ? s.game.final?.category ?? 'Final' : s.game.categories[c.cat]?.name ?? '');
+
 export function totalQuestions(g: Game) {
   return g.categories.reduce((n, c) => n + c.questions.length, 0);
 }
 
 export function maxWager(s: GameState, playerId: string) {
   const p = s.players.find((x) => x.id === playerId);
-  const top = Math.max(0, ...s.game.categories.flatMap((c) => c.questions.map((q) => q.value)));
-  return Math.max(top, p?.score ?? 0);
+  return Math.max(topValue(s.game), p?.score ?? 0);
 }
 
 function addScore(s: GameState, playerId: string, delta: number, reason: string, kind: ScoreEvent['kind'], qid?: string): GameState {
@@ -194,7 +212,7 @@ export function reduce(s: GameState, a: Action): GameState {
     }
     case 'judge': {
       if (!c || c.buzzer !== 'awarded' || !c.winnerId) return s;
-      const q = questionAt(s.game, c.cat, c.idx)!;
+      const q = clueOf(s, c)!;
       const amount = c.dd ? c.wager ?? 0 : q.value;
       const who = c.winnerId;
       if (a.correct) {
@@ -223,26 +241,35 @@ export function reduce(s: GameState, a: Action): GameState {
     case 'close': {
       if (!c || c.buzzer !== 'resolved') return s;
       const done = s.used.length >= totalQuestions(s.game);
-      const finished = done && !(s.game.final && !s.final);
+      const finished = c.final || (done && !(s.game.final && !s.final));
       return { ...s, phase: finished ? 'finished' : 'board', current: undefined };
     }
     case 'adjust': {
       const n = addScore(s, a.playerId, Math.trunc(a.delta), a.reason || 'Manual adjustment', 'manual', s.current?.qid);
       return n === s ? s : log(n, `${pname(s, a.playerId)} ${a.delta > 0 ? '+' : ''}${a.delta} (${a.reason || 'manual'})`);
     }
+    case 'setAvatar':
+      return s.players.some((p) => p.id === a.id) ? { ...s, players: s.players.map((p) => (p.id === a.id ? { ...p, avatar: a.avatar } : p)) } : s;
     case 'setChooser':
       return s.players.some((p) => p.id === a.id) ? { ...s, chooserId: a.id } : s;
     case 'startFinal': {
       if (s.phase !== 'board' || !s.game.final || s.final) return s;
-      const eligible = s.players.filter((p) => p.score > 0).map((p) => p.id);
+      const mode = finalMode(s.game);
+      if (mode === 'normal') {
+        if (s.players.length === 0) return s;
+        const cur: Current = { qid: 'final', cat: -1, idx: 0, buzzer: 'disabled', lockedOut: [], answerShown: false, dd: false, final: true, buzzSeq: 0 };
+        return log({ ...s, phase: 'clue', current: cur, final: { mode, stage: 'reveal', eligible: [], order: [], wagers: {}, answers: {}, revealed: [], judged: {} } }, 'Final question');
+      }
+      // typed: everyone plays, whatever their score. wager: only players with points.
+      const eligible = (mode === 'typed' ? s.players : s.players.filter((p) => p.score > 0)).map((p) => p.id);
       if (eligible.length === 0) return log({ ...s, phase: 'finished' }, 'No player has a positive score: final round skipped');
       const order = [...eligible].sort((x, y) => s.players.find((p) => p.id === x)!.score - s.players.find((p) => p.id === y)!.score);
-      return log({ ...s, phase: 'final', final: { stage: 'wager', eligible, order, wagers: {}, answers: {}, revealed: [], judged: {} } }, 'Final round');
+      return log({ ...s, phase: 'final', final: { mode, stage: 'wager', eligible, order, wagers: {}, answers: {}, revealed: [], judged: {} } }, 'Final round');
     }
     case 'finalWager': {
       const f = s.final;
       const p = s.players.find((x) => x.id === a.playerId);
-      if (s.phase !== 'final' || !f || f.stage !== 'wager' || !p || !f.eligible.includes(p.id)) return s;
+      if (s.phase !== 'final' || !f || f.mode === 'typed' || f.stage !== 'wager' || !p || !f.eligible.includes(p.id)) return s;
       const amount = Math.floor(a.amount);
       if (!Number.isFinite(amount) || amount < 0 || amount > p.score) return s;
       return { ...s, final: { ...f, wagers: { ...f.wagers, [p.id]: amount } } };
@@ -259,7 +286,8 @@ export function reduce(s: GameState, a: Action): GameState {
       if (s.phase !== 'final' || !f) return s;
       if (f.stage === 'wager') {
         const wagers = { ...f.wagers };
-        for (const id of f.eligible) wagers[id] ??= 0;
+        const flat = f.mode === 'typed' ? finalValue(s.game) : 0; // typed: everyone plays for the same amount
+        for (const id of f.eligible) wagers[id] ??= flat;
         return { ...s, final: { ...f, stage: 'clue', wagers, deadline: a.deadline } };
       }
       if (f.stage === 'clue') return { ...s, final: { ...f, stage: 'reveal' } };
@@ -275,8 +303,9 @@ export function reduce(s: GameState, a: Action): GameState {
       const f = s.final;
       if (s.phase !== 'final' || !f || f.stage !== 'reveal' || !f.revealed.includes(a.playerId) || a.playerId in f.judged) return s;
       const w = f.wagers[a.playerId] ?? 0;
-      const n = addScore(s, a.playerId, a.correct ? w : -w, `Final round ${a.correct ? 'correct' : 'incorrect'}`, 'final');
-      return log({ ...n, final: { ...f, judged: { ...f.judged, [a.playerId]: a.correct } } }, `${pname(s, a.playerId)} final: ${a.correct ? '+' : '-'}${w}`);
+      const loss = f.mode === 'typed' && !s.game.rules.wrongPenalty ? 0 : w;
+      const n = addScore(s, a.playerId, a.correct ? w : -loss, `Final round ${a.correct ? 'correct' : 'incorrect'}`, 'final');
+      return log({ ...n, final: { ...f, judged: { ...f.judged, [a.playerId]: a.correct } } }, `${pname(s, a.playerId)} final: ${a.correct ? '+' : '-'}${a.correct ? w : loss}`);
     }
     case 'finalFinish': {
       const f = s.final;
@@ -297,10 +326,14 @@ export function standings(s: GameState) {
 export interface PublicView {
   title: string;
   phase: Phase;
-  players: Pick<Player, 'id' | 'name' | 'color' | 'score' | 'connected'>[];
+  players: Pick<Player, 'id' | 'name' | 'color' | 'avatar' | 'score' | 'connected'>[];
   chooserId?: string;
+  /** Only while the lobby is open: how the audience joins. Dropped once the game starts. */
+  join?: { code: string; url?: string; qr?: string };
   board: { name: string; color: string; cells: { value: number; used: boolean }[] }[];
   final?: {
+    mode: FinalMode;
+    value: number;
     stage: 'wager' | 'clue' | 'reveal';
     category: string;
     clue?: string;
@@ -317,6 +350,8 @@ export interface PublicView {
     winnerId?: string;
     lockedOut: string[];
     dd: boolean;
+    final?: boolean;
+    category?: string;
     wager?: number;
     value: number;
     answer?: string; // only once answerShown
@@ -324,15 +359,16 @@ export interface PublicView {
   };
 }
 
-export function publicView(s: GameState): PublicView {
+export function publicView(s: GameState, join?: PublicView['join']): PublicView {
   const c = s.current;
-  const q = c ? questionAt(s.game, c.cat, c.idx) : undefined;
+  const q = c ? clueOf(s, c) : undefined;
   const ddHidden = !!c?.dd && c.wager === undefined;
   return {
     title: s.game.title,
     phase: s.phase,
-    players: s.players.map(({ id, name, color, score, connected }) => ({ id, name, color, score, connected })),
+    players: s.players.map(({ id, name, color, avatar, score, connected }) => ({ id, name, color, avatar, score, connected })),
     chooserId: s.chooserId,
+    join: s.phase === 'lobby' ? join : undefined,
     final: pubFinal(s),
     board: s.game.categories.map((cat) => ({
       name: cat.name,
@@ -348,6 +384,8 @@ export function publicView(s: GameState): PublicView {
             winnerId: c.winnerId,
             lockedOut: c.lockedOut,
             dd: c.dd,
+            final: c.final,
+            category: c.final ? clueCategory(s, c) : undefined,
             wager: c.wager,
             value: q.value,
             answer: c.answerShown ? q.answer : undefined,
@@ -362,6 +400,8 @@ function pubFinal(s: GameState): PublicView['final'] {
   const fc = s.game.final;
   if (!f || !fc) return undefined;
   return {
+    mode: finalMode(s.game),
+    value: finalValue(s.game),
     stage: f.stage,
     category: fc.category,
     clue: f.stage === 'wager' ? undefined : fc.clue,
@@ -383,7 +423,7 @@ export interface PlayerView {
   youWon: boolean;
   youLocked: boolean;
   winnerName?: string;
-  final?: { stage: 'wager' | 'clue' | 'reveal'; category: string; clue?: string; deadline?: number; sentAt: number; eligible: boolean; maxWager: number; wager?: number; answer?: string };
+  final?: { mode: FinalMode; value: number; stage: 'wager' | 'clue' | 'reveal'; category: string; clue?: string; deadline?: number; sentAt: number; eligible: boolean; maxWager: number; wager?: number; answer?: string };
   standings: { name: string; score: number; color: string }[];
 }
 
@@ -403,6 +443,8 @@ export function playerView(s: GameState, playerId: string): PlayerView | undefin
     final:
       s.final && s.game.final
         ? {
+            mode: finalMode(s.game),
+            value: finalValue(s.game),
             stage: s.final.stage,
             category: s.game.final.category,
             clue: s.final.stage === 'wager' ? undefined : s.game.final.clue,

@@ -5,7 +5,7 @@ import { parseClientMsg, peerIdFor, type HostMsg } from './protocol';
 
 export interface HostLinkEvents {
   /** A (re)connecting phone presented a token. Return the player id it maps to, or an error. */
-  onHello(token: string, name: string, color: string): { playerId: string } | { error: 'name-taken' | 'room-locked' | 'room-full'; message: string };
+  onHello(token: string, name: string, color: string, avatar?: string): { playerId: string } | { error: 'name-taken' | 'room-locked' | 'room-full'; message: string };
   onBuzz(playerId: string, qid: string): void;
   onWager(playerId: string, amount: number): void;
   onAnswer(playerId: string, text: string): void;
@@ -45,7 +45,7 @@ export class HostLink {
       const msg = parseClientMsg(raw);
       if (!msg) return c.send({ k: 'error', code: 'bad-request', message: 'Bad message' } satisfies HostMsg);
       if (msg.k === 'hello') {
-        const res = this.ev.onHello(msg.token, msg.name, msg.color);
+        const res = this.ev.onHello(msg.token, msg.name, msg.color, msg.avatar);
         if ('error' in res) {
           c.send({ k: 'error', code: res.error, message: res.message } satisfies HostMsg);
           return;

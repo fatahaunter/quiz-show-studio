@@ -61,7 +61,7 @@ export interface Limits {
   clues: number;
 }
 
-export function gameFromTxt(text: string, fallbackTitle: string, limits: Limits = { cats: 10, clues: 10 }): CsvResult {
+export function gameFromTxt(text: string, fallbackTitle: string, limits: Limits = { cats: 8, clues: 10 }): CsvResult {
   const errors: string[] = [];
   const warnings: string[] = [];
   if (looksFlat(text)) return { errors: ['This file lists one clue per line as  Category | Clue | Answer. Import it as a question bank.'], warnings };

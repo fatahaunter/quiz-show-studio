@@ -59,6 +59,7 @@ export function parseGameJson(text: string): { game?: Game; errors: string[] } {
   if (typeof d.schema !== 'number' || d.schema > SCHEMA_VERSION)
     errors.push(`Unsupported schema version ${String(d.schema)} (this app supports up to ${SCHEMA_VERSION}).`);
   if (!Array.isArray(d.categories) || d.categories.length === 0) errors.push('Game has no categories.');
+  else if (d.categories.length > 8) errors.push(`Game has ${d.categories.length} categories; the maximum is 8.`);
   if (errors.length) return { errors };
   const str = (v: unknown, max: number) => (typeof v === 'string' ? v.slice(0, max) : '');
   const game: Game = {
@@ -81,9 +82,11 @@ export function parseGameJson(text: string): { game?: Game; errors: string[] } {
             clue: str(d.final.clue, 1000),
             answer: str(d.final.answer, 300),
             alts: Array.isArray(d.final.alts) ? d.final.alts.slice(0, 10).map((x: unknown) => str(x, 300)).filter(Boolean) : [],
+            mode: d.final.mode === 'typed' || d.final.mode === 'normal' ? d.final.mode : 'wager',
+            value: Number.isFinite(Number(d.final.value)) && Number(d.final.value) >= 0 ? Math.round(Number(d.final.value)) : undefined,
           }
         : undefined,
-    categories: d.categories.slice(0, 12).map((c: any, ci: number) => {
+    categories: d.categories.slice(0, 8).map((c: any, ci: number) => {
       if (!Array.isArray(c?.questions)) errors.push(`Category ${ci + 1} has no questions list.`);
       return {
         id: uid(),

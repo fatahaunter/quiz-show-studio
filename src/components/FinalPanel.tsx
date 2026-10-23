@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import type { Action, GameState } from '../engine/game';
+import { finalValue } from '../engine/game';
+import Avatar from './Avatar';
 import FinalTimer from './FinalTimer';
 
 /** Host controls for the Final round. Shows private wagers/answers only here, never on the public screen. */
@@ -9,6 +11,7 @@ export default function FinalPanel({ state, dispatch }: { state: GameState; disp
   const [local, setLocal] = useState<Record<string, string>>({});
   if (!f || !fc) return null;
   const name = (id: string) => state.players.find((p) => p.id === id)?.name ?? '?';
+  const typed = f.mode === 'typed';
   const nextHidden = f.order.find((id) => !f.revealed.includes(id));
   const allJudged = f.order.every((id) => id in f.judged);
 
@@ -16,7 +19,8 @@ export default function FinalPanel({ state, dispatch }: { state: GameState; disp
     <div className="card">
       <div className="row">
         <h2 className="grow" style={{ margin: 0 }}>Final round &middot; {fc.category}</h2>
-        <span className="pill">Stage: <b>{f.stage.toUpperCase()}</b></span>
+        <span className="pill">{typed ? `Everyone answers · worth ${finalValue(state.game)}` : 'Wager final'}</span>
+        <span className="pill">Stage: <b>{typed && f.stage === 'wager' ? 'READY' : f.stage.toUpperCase()}</b></span>
       </div>
 
       {f.stage !== 'wager' && <p style={{ fontSize: '1.3rem' }}>{fc.clue}</p>}
@@ -29,19 +33,20 @@ export default function FinalPanel({ state, dispatch }: { state: GameState; disp
       {f.stage !== 'reveal' && (
         <>
           <p className="muted">
-            {f.stage === 'wager' ? 'Players lock a wager on their phones (max = their score). Local players are entered below.' : 'Players type an answer on their phones. Local players are entered below.'}
+            {typed ? (f.stage === 'wager' ? 'Everyone plays, whatever their score. Show the clue when the room is ready.' : 'Players type an answer on their phones. Local players are entered below.')
+              : f.stage === 'wager' ? 'Players lock a wager on their phones (max = their score). Local players are entered below.' : 'Players type an answer on their phones. Local players are entered below.'}
           </p>
           {f.eligible.map((id) => {
             const p = state.players.find((x) => x.id === id)!;
-            const done = f.stage === 'wager' ? id in f.wagers : id in f.answers;
+            const done = f.stage === 'wager' ? !typed && id in f.wagers : id in f.answers;
             return (
               <div className="player-row" key={id}>
-                <span className="avatar" style={{ background: p.color }}>{p.name[0]?.toUpperCase()}</span>
+                <Avatar name={p.name} color={p.color} src={p.avatar} />
                 <div className="grow">
                   <b>{p.name}</b> <span className="muted">({p.score})</span>{' '}
-                  <span className={done ? 'ok' : 'muted'}>{done ? (f.stage === 'wager' ? `wager ${f.wagers[id]} locked` : 'answered') : p.connected || p.local ? 'waiting' : 'offline'}</span>
+                  <span className={done ? 'ok' : 'muted'}>{done ? (f.stage === 'wager' ? `wager ${f.wagers[id]} locked` : 'answered') : p.connected || p.local ? (typed && f.stage === 'wager' ? 'ready' : 'waiting') : 'offline'}</span>
                 </div>
-                {p.local && (
+                {p.local && !(typed && f.stage === 'wager') && (
                   <div className="row" style={{ gap: 4 }}>
                     <input
                       type={f.stage === 'wager' ? 'number' : 'text'}
@@ -84,7 +89,7 @@ export default function FinalPanel({ state, dispatch }: { state: GameState; disp
             return (
               <div className="player-row" key={id}>
                 <div className="grow">
-                  <b>{name(id)}</b> <span className="muted">wager {f.wagers[id] ?? 0}</span>
+                  <b>{name(id)}</b> <span className="muted">{typed ? 'worth' : 'wager'} {f.wagers[id] ?? 0}</span>
                   <div>Answer: <b>{f.answers[id] ?? "(no answer)"}</b></div>
                   {!shown && <span className="muted">Hidden from the audience</span>}
                 </div>
